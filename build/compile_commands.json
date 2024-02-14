@@ -1,0 +1,194 @@
+[
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLEW_STATIC -DGLFW_INCLUDE_NONE @CMakeFiles/MyGameEngine.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -o CMakeFiles\\MyGameEngine.dir\\src\\CoreEngine.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\src\\CoreEngine.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/src/CoreEngine.cpp",
+  "output": "CMakeFiles/MyGameEngine.dir/src/CoreEngine.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLEW_STATIC -DGLFW_INCLUDE_NONE @CMakeFiles/MyGameEngine.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -o CMakeFiles\\MyGameEngine.dir\\src\\circle.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\src\\circle.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/src/circle.cpp",
+  "output": "CMakeFiles/MyGameEngine.dir/src/circle.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLEW_STATIC -DGLFW_INCLUDE_NONE @CMakeFiles/MyGameEngine.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -o CMakeFiles\\MyGameEngine.dir\\src\\main.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\src\\main.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/src/main.cpp",
+  "output": "CMakeFiles/MyGameEngine.dir/src/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLEW_STATIC -DGLFW_INCLUDE_NONE @CMakeFiles/MyGameEngine.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -o CMakeFiles\\MyGameEngine.dir\\src\\rectangle.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\src\\rectangle.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/src/rectangle.cpp",
+  "output": "CMakeFiles/MyGameEngine.dir/src/rectangle.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLEW_STATIC -DGLFW_INCLUDE_NONE @CMakeFiles/MyGameEngine.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -o CMakeFiles\\MyGameEngine.dir\\src\\renderer.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\src\\renderer.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/src/renderer.cpp",
+  "output": "CMakeFiles/MyGameEngine.dir/src/renderer.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLEW_STATIC -DGLFW_INCLUDE_NONE @CMakeFiles/MyGameEngine.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -o CMakeFiles\\MyGameEngine.dir\\src\\shader.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\src\\shader.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/src/shader.cpp",
+  "output": "CMakeFiles/MyGameEngine.dir/src/shader.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLEW_STATIC -DGLFW_INCLUDE_NONE @CMakeFiles/MyGameEngine.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -o CMakeFiles\\MyGameEngine.dir\\src\\shape.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\src\\shape.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/src/shape.cpp",
+  "output": "CMakeFiles/MyGameEngine.dir/src/shape.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/GLFW/src",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\context.c.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\GLFW\\src\\context.c\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/GLFW/src/context.c",
+  "output": "external/GLFW/src/CMakeFiles/glfw.dir/context.c.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/GLFW/src",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\init.c.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\GLFW\\src\\init.c\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/GLFW/src/init.c",
+  "output": "external/GLFW/src/CMakeFiles/glfw.dir/init.c.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/GLFW/src",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\input.c.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\GLFW\\src\\input.c\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/GLFW/src/input.c",
+  "output": "external/GLFW/src/CMakeFiles/glfw.dir/input.c.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/GLFW/src",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\monitor.c.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\GLFW\\src\\monitor.c\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/GLFW/src/monitor.c",
+  "output": "external/GLFW/src/CMakeFiles/glfw.dir/monitor.c.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/GLFW/src",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\platform.c.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\GLFW\\src\\platform.c\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/GLFW/src/platform.c",
+  "output": "external/GLFW/src/CMakeFiles/glfw.dir/platform.c.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/GLFW/src",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\vulkan.c.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\GLFW\\src\\vulkan.c\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/GLFW/src/vulkan.c",
+  "output": "external/GLFW/src/CMakeFiles/glfw.dir/vulkan.c.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/GLFW/src",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\window.c.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\GLFW\\src\\window.c\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/GLFW/src/window.c",
+  "output": "external/GLFW/src/CMakeFiles/glfw.dir/window.c.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/GLFW/src",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\egl_context.c.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\GLFW\\src\\egl_context.c\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/GLFW/src/egl_context.c",
+  "output": "external/GLFW/src/CMakeFiles/glfw.dir/egl_context.c.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/GLFW/src",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\osmesa_context.c.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\GLFW\\src\\osmesa_context.c\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/GLFW/src/osmesa_context.c",
+  "output": "external/GLFW/src/CMakeFiles/glfw.dir/osmesa_context.c.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/GLFW/src",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\null_init.c.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\GLFW\\src\\null_init.c\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/GLFW/src/null_init.c",
+  "output": "external/GLFW/src/CMakeFiles/glfw.dir/null_init.c.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/GLFW/src",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\null_monitor.c.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\GLFW\\src\\null_monitor.c\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/GLFW/src/null_monitor.c",
+  "output": "external/GLFW/src/CMakeFiles/glfw.dir/null_monitor.c.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/GLFW/src",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\null_window.c.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\GLFW\\src\\null_window.c\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/GLFW/src/null_window.c",
+  "output": "external/GLFW/src/CMakeFiles/glfw.dir/null_window.c.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/GLFW/src",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\null_joystick.c.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\GLFW\\src\\null_joystick.c\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/GLFW/src/null_joystick.c",
+  "output": "external/GLFW/src/CMakeFiles/glfw.dir/null_joystick.c.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/GLFW/src",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\win32_module.c.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\GLFW\\src\\win32_module.c\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/GLFW/src/win32_module.c",
+  "output": "external/GLFW/src/CMakeFiles/glfw.dir/win32_module.c.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/GLFW/src",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\win32_time.c.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\GLFW\\src\\win32_time.c\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/GLFW/src/win32_time.c",
+  "output": "external/GLFW/src/CMakeFiles/glfw.dir/win32_time.c.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/GLFW/src",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\win32_thread.c.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\GLFW\\src\\win32_thread.c\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/GLFW/src/win32_thread.c",
+  "output": "external/GLFW/src/CMakeFiles/glfw.dir/win32_thread.c.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/GLFW/src",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\win32_init.c.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\GLFW\\src\\win32_init.c\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/GLFW/src/win32_init.c",
+  "output": "external/GLFW/src/CMakeFiles/glfw.dir/win32_init.c.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/GLFW/src",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\win32_joystick.c.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\GLFW\\src\\win32_joystick.c\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/GLFW/src/win32_joystick.c",
+  "output": "external/GLFW/src/CMakeFiles/glfw.dir/win32_joystick.c.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/GLFW/src",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\win32_monitor.c.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\GLFW\\src\\win32_monitor.c\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/GLFW/src/win32_monitor.c",
+  "output": "external/GLFW/src/CMakeFiles/glfw.dir/win32_monitor.c.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/GLFW/src",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\win32_window.c.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\GLFW\\src\\win32_window.c\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/GLFW/src/win32_window.c",
+  "output": "external/GLFW/src/CMakeFiles/glfw.dir/win32_window.c.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/GLFW/src",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\wgl_context.c.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\GLFW\\src\\wgl_context.c\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/GLFW/src/wgl_context.c",
+  "output": "external/GLFW/src/CMakeFiles/glfw.dir/wgl_context.c.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/GLEW/build/cmake",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DGLEW_NO_GLU -DGLEW_STATIC @CMakeFiles/glew_s.dir/includes_C.rsp -g -fno-builtin -fno-stack-protector -o CMakeFiles\\glew_s.dir\\__\\__\\src\\glew.c.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\GLEW\\src\\glew.c\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/GLEW/src/glew.c",
+  "output": "external/GLEW/build/cmake/CMakeFiles/glew_s.dir/__/__/src/glew.c.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/GLEW/build/cmake",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DGLEW_BUILD -DGLEW_NO_GLU -Dglew_EXPORTS @CMakeFiles/glew.dir/includes_C.rsp -g -fno-builtin -fno-stack-protector -o CMakeFiles\\glew.dir\\__\\__\\src\\glew.c.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\GLEW\\src\\glew.c\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/GLEW/src/glew.c",
+  "output": "external/GLEW/build/cmake/CMakeFiles/glew.dir/__/__/src/glew.c.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/GLEW/build/cmake",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DGLEW_NO_GLU @CMakeFiles/glewinfo.dir/includes_C.rsp -g -o CMakeFiles\\glewinfo.dir\\__\\__\\src\\glewinfo.c.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\GLEW\\src\\glewinfo.c\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/GLEW/src/glewinfo.c",
+  "output": "external/GLEW/build/cmake/CMakeFiles/glewinfo.dir/__/__/src/glewinfo.c.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/GLEW/build/cmake",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DGLEW_NO_GLU @CMakeFiles/visualinfo.dir/includes_C.rsp -g -o CMakeFiles\\visualinfo.dir\\__\\__\\src\\visualinfo.c.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\GLEW\\src\\visualinfo.c\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/GLEW/src/visualinfo.c",
+  "output": "external/GLEW/build/cmake/CMakeFiles/visualinfo.dir/__/__/src/visualinfo.c.obj"
+}
+]

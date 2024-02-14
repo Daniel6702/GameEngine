@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/GLEW/build/glewinfo.rc
+windows.h
+-
+

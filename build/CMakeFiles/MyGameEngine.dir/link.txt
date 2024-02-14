@@ -1,0 +1,3 @@
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\MyGameEngine.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\MyGameEngine.dir/objects.a @CMakeFiles\MyGameEngine.dir\objects1.rsp
+C:\msys64\ucrt64\bin\g++.exe  -Wall -Wextra -Wpedantic -g -Wl,--whole-archive CMakeFiles\MyGameEngine.dir/objects.a -Wl,--no-whole-archive -o MyGameEngine\MyGameEngine.exe -Wl,--out-implib,libMyGameEngine.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\MyGameEngine.dir\linkLibs.rsp
