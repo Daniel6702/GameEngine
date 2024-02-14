@@ -4,6 +4,8 @@
 #include "IGame.h"
 #include <GLFW/glfw3.h>
 #include <string>
+#include "renderer.h"
+#include "render_queue.h"
 
 class CoreEngine {
 public:
@@ -22,6 +24,7 @@ private:
     std::string m_title;
     GLFWwindow* m_window;
     bool m_isRunning;
+    Renderer* renderer;
 };
 
 #endif

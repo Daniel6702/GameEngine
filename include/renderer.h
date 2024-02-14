@@ -10,6 +10,7 @@ public:
 
     void drawShape(const GLuint VAO, const GLsizei count, GLenum primitive, glm::mat4 matrix, glm::vec3 color) const;
     float getAspectRatio(int width, int height) const;
+    void background(glm::vec3 color);
 
 private:
     Shader* shader;

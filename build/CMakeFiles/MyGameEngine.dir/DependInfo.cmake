@@ -9,9 +9,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/src/CoreEngine.cpp" "CMakeFiles/MyGameEngine.dir/src/CoreEngine.cpp.obj" "gcc" "CMakeFiles/MyGameEngine.dir/src/CoreEngine.cpp.obj.d"
+  "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/src/background.cpp" "CMakeFiles/MyGameEngine.dir/src/background.cpp.obj" "gcc" "CMakeFiles/MyGameEngine.dir/src/background.cpp.obj.d"
   "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/src/circle.cpp" "CMakeFiles/MyGameEngine.dir/src/circle.cpp.obj" "gcc" "CMakeFiles/MyGameEngine.dir/src/circle.cpp.obj.d"
   "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/src/main.cpp" "CMakeFiles/MyGameEngine.dir/src/main.cpp.obj" "gcc" "CMakeFiles/MyGameEngine.dir/src/main.cpp.obj.d"
-  "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/src/rectangle.cpp" "CMakeFiles/MyGameEngine.dir/src/rectangle.cpp.obj" "gcc" "CMakeFiles/MyGameEngine.dir/src/rectangle.cpp.obj.d"
+  "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/src/render_queue.cpp" "CMakeFiles/MyGameEngine.dir/src/render_queue.cpp.obj" "gcc" "CMakeFiles/MyGameEngine.dir/src/render_queue.cpp.obj.d"
   "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/src/renderer.cpp" "CMakeFiles/MyGameEngine.dir/src/renderer.cpp.obj" "gcc" "CMakeFiles/MyGameEngine.dir/src/renderer.cpp.obj.d"
   "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/src/shader.cpp" "CMakeFiles/MyGameEngine.dir/src/shader.cpp.obj" "gcc" "CMakeFiles/MyGameEngine.dir/src/shader.cpp.obj.d"
   "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/src/shape.cpp" "CMakeFiles/MyGameEngine.dir/src/shape.cpp.obj" "gcc" "CMakeFiles/MyGameEngine.dir/src/shape.cpp.obj.d"

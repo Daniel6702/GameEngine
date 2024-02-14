@@ -18,11 +18,14 @@ Circle::Circle(int x, int y, int radius, glm::vec3 color, unsigned int segments)
         vertices.push_back(r * sinf(angle)); // y coordinate
     }
 
+    item.primitive = GL_TRIANGLE_FAN;
+    item.count = segments + 2;
+    item.layer = 0;
+    item.type = 0; //shape type
+
     setupBuffers(vertices);
 }
 
-void Circle::draw(Renderer* renderer) const {
-    if (renderer) {
-        renderer->drawShape(VAO, segments + 2, GL_TRIANGLE_FAN, getTransformationMatrix(), color);
-    }
+void Circle::draw() const {
+    RenderQueue::getInstance().submit(item);
 }

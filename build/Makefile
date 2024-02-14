@@ -288,6 +288,30 @@ src/CoreEngine.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/CoreEngine.cpp.s
 .PHONY : src/CoreEngine.cpp.s
 
+src/background.obj: src/background.cpp.obj
+.PHONY : src/background.obj
+
+# target to build an object file
+src/background.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/background.cpp.obj
+.PHONY : src/background.cpp.obj
+
+src/background.i: src/background.cpp.i
+.PHONY : src/background.i
+
+# target to preprocess a source file
+src/background.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/background.cpp.i
+.PHONY : src/background.cpp.i
+
+src/background.s: src/background.cpp.s
+.PHONY : src/background.s
+
+# target to generate assembly for a file
+src/background.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/background.cpp.s
+.PHONY : src/background.cpp.s
+
 src/circle.obj: src/circle.cpp.obj
 .PHONY : src/circle.obj
 
@@ -336,29 +360,29 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/rectangle.obj: src/rectangle.cpp.obj
-.PHONY : src/rectangle.obj
+src/render_queue.obj: src/render_queue.cpp.obj
+.PHONY : src/render_queue.obj
 
 # target to build an object file
-src/rectangle.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/rectangle.cpp.obj
-.PHONY : src/rectangle.cpp.obj
+src/render_queue.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/render_queue.cpp.obj
+.PHONY : src/render_queue.cpp.obj
 
-src/rectangle.i: src/rectangle.cpp.i
-.PHONY : src/rectangle.i
+src/render_queue.i: src/render_queue.cpp.i
+.PHONY : src/render_queue.i
 
 # target to preprocess a source file
-src/rectangle.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/rectangle.cpp.i
-.PHONY : src/rectangle.cpp.i
+src/render_queue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/render_queue.cpp.i
+.PHONY : src/render_queue.cpp.i
 
-src/rectangle.s: src/rectangle.cpp.s
-.PHONY : src/rectangle.s
+src/render_queue.s: src/render_queue.cpp.s
+.PHONY : src/render_queue.s
 
 # target to generate assembly for a file
-src/rectangle.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/rectangle.cpp.s
-.PHONY : src/rectangle.cpp.s
+src/render_queue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/render_queue.cpp.s
+.PHONY : src/render_queue.cpp.s
 
 src/renderer.obj: src/renderer.cpp.obj
 .PHONY : src/renderer.obj
@@ -455,15 +479,18 @@ help:
 	@echo ... src/CoreEngine.obj
 	@echo ... src/CoreEngine.i
 	@echo ... src/CoreEngine.s
+	@echo ... src/background.obj
+	@echo ... src/background.i
+	@echo ... src/background.s
 	@echo ... src/circle.obj
 	@echo ... src/circle.i
 	@echo ... src/circle.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
-	@echo ... src/rectangle.obj
-	@echo ... src/rectangle.i
-	@echo ... src/rectangle.s
+	@echo ... src/render_queue.obj
+	@echo ... src/render_queue.i
+	@echo ... src/render_queue.s
 	@echo ... src/renderer.obj
 	@echo ... src/renderer.i
 	@echo ... src/renderer.s

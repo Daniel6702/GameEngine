@@ -7,6 +7,12 @@
 },
 {
   "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLEW_STATIC -DGLFW_INCLUDE_NONE @CMakeFiles/MyGameEngine.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -o CMakeFiles\\MyGameEngine.dir\\src\\background.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\src\\background.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/src/background.cpp",
+  "output": "CMakeFiles/MyGameEngine.dir/src/background.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build",
   "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLEW_STATIC -DGLFW_INCLUDE_NONE @CMakeFiles/MyGameEngine.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -o CMakeFiles\\MyGameEngine.dir\\src\\circle.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\src\\circle.cpp\"",
   "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/src/circle.cpp",
   "output": "CMakeFiles/MyGameEngine.dir/src/circle.cpp.obj"
@@ -19,9 +25,9 @@
 },
 {
   "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLEW_STATIC -DGLFW_INCLUDE_NONE @CMakeFiles/MyGameEngine.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -o CMakeFiles\\MyGameEngine.dir\\src\\rectangle.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\src\\rectangle.cpp\"",
-  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/src/rectangle.cpp",
-  "output": "CMakeFiles/MyGameEngine.dir/src/rectangle.cpp.obj"
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLEW_STATIC -DGLFW_INCLUDE_NONE @CMakeFiles/MyGameEngine.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -o CMakeFiles\\MyGameEngine.dir\\src\\render_queue.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\src\\render_queue.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/src/render_queue.cpp",
+  "output": "CMakeFiles/MyGameEngine.dir/src/render_queue.cpp.obj"
 },
 {
   "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build",

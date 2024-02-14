@@ -13,6 +13,14 @@ Renderer::~Renderer() {
     delete shader;
 }
 
+void Renderer::background(glm::vec3 color) {
+    float r = color.x / 255.0f;
+    float g = color.y / 255.0f;
+    float b = color.z / 255.0f;
+    glClearColor(r, g, b, 1.0f);
+    glClear(GL_COLOR_BUFFER_BIT);
+}
+
 void Renderer::drawShape(const GLuint VAO, const GLsizei count, GLenum primitive, glm::mat4 matrix, glm::vec3 color) const {
     shader->use();
     shader->setFloat("aspectRatio", aspectRatio);

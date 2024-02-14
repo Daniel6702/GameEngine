@@ -1,34 +1,79 @@
 #include "IGame.h"
-#include "rectangle.h"
 #include "circle.h"
-#include "renderer.h"
+#include "background.h"
 #include <GLFW/glfw3.h>
+#include <iostream>
+using namespace std;
 
-class MyGame : public IGame {
+#define SCREEN_WIDTH 1200
+#define SCREEN_HEIGHT 600
+
+class Ball {
 public:
-    MyGame() : circle(nullptr), renderer(nullptr) {}
+    Ball(int x, int y, int radius, glm::vec3 color, glm::vec2 velocity)
+    : circle(new Circle(x, y, radius, color,36)), velocity(velocity) {}
 
-    ~MyGame() {
+    ~Ball() {
         delete circle;
-        delete renderer;
     }
 
-    void init() override {
-        // Initialize your shapes
-        circle = new Circle(600, 300, 200, glm::vec3(255, 255, 0));
-        renderer = new Renderer(1200, 600);
+    void update(float deltaTime) {
+        circle->move(velocity.x * deltaTime, velocity.y * deltaTime);
+        glm::vec2 pos = circle->getPosition();
+        // Boundary check and bounce
+        if (pos.x < 0 || pos.x > SCREEN_WIDTH) {
+            velocity.x = -velocity.x;
+        }
+        if (pos.y < 0 || pos.y > SCREEN_HEIGHT) {
+            velocity.y = -velocity.y;
+        }
     }
 
-    void update(float /*deltaTime*/) override {
-        // Update logic here
-    }
-
-    void render() override {
-        // Render your shapes
-        if (circle) circle->draw(renderer);
+    void draw() {
+        circle->draw();
     }
 
 private:
     Circle* circle;
-    Renderer* renderer;
+    glm::vec2 velocity;
 };
+
+class MyGame : public IGame {
+public:
+    MyGame() {}
+
+    ~MyGame() {
+        for (auto* b : balls) {
+            delete b;
+        }
+    }
+
+    void init() override {
+        background = new Background(glm::vec3(40, 40, 40));
+        for (int i = 0; i < 10000; ++i) {
+            int x = rand() % SCREEN_WIDTH;
+            int y = rand() % SCREEN_HEIGHT;
+            glm::vec3 color(rand() % 256, rand() % 256, rand() % 256);
+            glm::vec2 velocity(rand() % 200 - 100, rand() % 200 - 100); // Random velocity
+            balls.push_back(new Ball(x, y, 50, color, velocity));
+        }
+    }
+
+    void update(float deltaTime) override {
+        for (auto* ball : balls) {
+            ball->update(deltaTime*0.025f);
+        }
+    }
+
+    void render() override {
+        background->draw();
+        for (auto* ball : balls) {
+            ball->draw();
+        }
+    }
+
+private:
+    std::vector<Ball*> balls;
+    Background* background;
+};
+

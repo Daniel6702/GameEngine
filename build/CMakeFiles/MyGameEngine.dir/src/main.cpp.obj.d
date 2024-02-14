@@ -99,14 +99,11 @@ CMakeFiles/MyGameEngine.dir/src/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/uses_allocator.h \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/uses_allocator_args.h \
  C:/msys64/ucrt64/include/c++/13.1.0/tuple \
- C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/include/MyGame.h \
- C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/include/rectangle.h \
- C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/include/Shape.h \
+ C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/include/renderer.h \
+ C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/include/Shader.h \
  C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/external/GLEW/include/GL/glew.h \
  C:/msys64/ucrt64/include/inttypes.h C:/msys64/ucrt64/include/GL/glu.h \
  C:/msys64/ucrt64/include/GL/gl.h \
- C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/include/Renderer.h \
- C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/include/Shader.h \
  C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/external/GLM/glm/glm.hpp \
  C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/external/GLM/glm/detail/_fixes.hpp \
  C:/msys64/ucrt64/include/c++/13.1.0/cmath \
@@ -271,6 +268,23 @@ CMakeFiles/MyGameEngine.dir/src/main.cpp.obj: \
  C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/external/GLM/glm/detail/type_half.inl \
  C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/external/GLM/glm/integer.hpp \
  C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/external/GLM/glm/detail/func_integer.inl \
+ C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/include/render_queue.h \
+ C:/msys64/ucrt64/include/c++/13.1.0/map \
+ C:/msys64/ucrt64/include/c++/13.1.0/bits/stl_tree.h \
+ C:/msys64/ucrt64/include/c++/13.1.0/ext/aligned_buffer.h \
+ C:/msys64/ucrt64/include/c++/13.1.0/bits/node_handle.h \
+ C:/msys64/ucrt64/include/c++/13.1.0/bits/stl_map.h \
+ C:/msys64/ucrt64/include/c++/13.1.0/bits/stl_multimap.h \
+ C:/msys64/ucrt64/include/c++/13.1.0/bits/erase_if.h \
+ C:/msys64/ucrt64/include/c++/13.1.0/vector \
+ C:/msys64/ucrt64/include/c++/13.1.0/bits/stl_uninitialized.h \
+ C:/msys64/ucrt64/include/c++/13.1.0/bits/stl_vector.h \
+ C:/msys64/ucrt64/include/c++/13.1.0/bits/stl_bvector.h \
+ C:/msys64/ucrt64/include/c++/13.1.0/bits/vector.tcc \
+ C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/include/render_item.h \
+ C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/include/MyGame.h \
+ C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/include/circle.h \
+ C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/include/Shape.h \
  C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/external/GLM/glm/gtc/matrix_transform.hpp \
  C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/external/GLM/glm/gtc/../ext/matrix_projection.hpp \
  C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/external/GLM/glm/gtc/../ext/../gtc/constants.hpp \
@@ -284,13 +298,7 @@ CMakeFiles/MyGameEngine.dir/src/main.cpp.obj: \
  C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/external/GLM/glm/gtc/../ext/matrix_transform.hpp \
  C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/external/GLM/glm/gtc/../ext/matrix_transform.inl \
  C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/external/GLM/glm/gtc/matrix_transform.inl \
- C:/msys64/ucrt64/include/c++/13.1.0/vector \
- C:/msys64/ucrt64/include/c++/13.1.0/bits/stl_uninitialized.h \
- C:/msys64/ucrt64/include/c++/13.1.0/bits/stl_vector.h \
- C:/msys64/ucrt64/include/c++/13.1.0/bits/stl_bvector.h \
- C:/msys64/ucrt64/include/c++/13.1.0/bits/vector.tcc \
- C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/include/circle.h \
- C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/include/renderer.h \
+ C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/include/background.h \
  C:/msys64/ucrt64/include/c++/13.1.0/iostream \
  C:/msys64/ucrt64/include/c++/13.1.0/ostream \
  C:/msys64/ucrt64/include/c++/13.1.0/ios \

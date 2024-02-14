@@ -2,13 +2,16 @@
 #include <iostream>
 using namespace std;
 
-Shape::Shape() : VAO(0), VBO(0), position(0.0f, 0.0f), size(1.0f, 1.0f), color(1.0f, 1.0f, 1.0f), angle(0.0f) {
+Shape::Shape() : position(0.0f, 0.0f), angle(0.0f) {
+    item.VAO = 0; 
+    item.VBO = 0;
+    item.color = glm::vec3(1.0f, 1.0f, 1.0f);
     updateTransformationMatrix();
 }
 
 Shape::~Shape() {
-    glDeleteVertexArrays(1, &VAO);
-    glDeleteBuffers(1, &VBO);
+    glDeleteVertexArrays(1, &item.VAO);
+    glDeleteBuffers(1, &item.VBO);
 }
 
 void Shape::setPosition(int x, int y) {
@@ -18,16 +21,23 @@ void Shape::setPosition(int x, int y) {
     updateTransformationMatrix();
 }
 
-void Shape::setSize(float width, float height) {
-    size = glm::vec2(width, height);
+void Shape::move(float dx, float dy) {
+    position.x += dx;
+    position.y += dy;
     updateTransformationMatrix();
+}
+
+glm::vec2 Shape::getPosition() const {
+    int x = static_cast<int>((position.x + 1.0f) * screenWidth / 2.0f + 0.5f);
+    int y = static_cast<int>((1.0f - position.y) * screenHeight / 2.0f + 0.5f);
+    return glm::vec2(x, y);
 }
 
 void Shape::setColor(int r, int g, int b) {
     float red = static_cast<float>(r) / 255.0f;
     float green = static_cast<float>(g) / 255.0f;
     float blue = static_cast<float>(b) / 255.0f;
-    color = glm::vec3(red, green, blue);
+    item.color = glm::vec3(red, green, blue);
 }
 
 void Shape::setAngle(float angleDegrees) {
@@ -36,22 +46,21 @@ void Shape::setAngle(float angleDegrees) {
 }
 
 void Shape::updateTransformationMatrix() {
-    transformationMatrix = glm::mat4(1.0f);
-    transformationMatrix = glm::translate(transformationMatrix, glm::vec3(position, 0.0f));
-    transformationMatrix = glm::rotate(transformationMatrix, glm::radians(angle), glm::vec3(0.0f, 0.0f, 1.0f));
-    transformationMatrix = glm::scale(transformationMatrix, glm::vec3(size, 1.0f));
+    item.transformationMatrix = glm::mat4(1.0f);
+    item.transformationMatrix = glm::translate(item.transformationMatrix, glm::vec3(position, 0.0f));
+    item.transformationMatrix = glm::rotate(item.transformationMatrix, glm::radians(angle), glm::vec3(0.0f, 0.0f, 1.0f));
 }
 
 glm::mat4 Shape::getTransformationMatrix() const {
-    return transformationMatrix;
+    return item.transformationMatrix;
 }
 
 void Shape::setupBuffers(const std::vector<float>& vertices) {
-    glGenVertexArrays(1, &VAO);
-    glGenBuffers(1, &VBO);
+    glGenVertexArrays(1, &item.VAO);
+    glGenBuffers(1, &item.VBO);
 
-    glBindVertexArray(VAO);
-    glBindBuffer(GL_ARRAY_BUFFER, VBO);
+    glBindVertexArray(item.VAO);
+    glBindBuffer(GL_ARRAY_BUFFER, item.VBO);
     glBufferData(GL_ARRAY_BUFFER, vertices.size() * sizeof(float), &vertices[0], GL_STATIC_DRAW);
 
     // Assuming every vertex consists of 2 floats (X and Y)
@@ -61,5 +70,7 @@ void Shape::setupBuffers(const std::vector<float>& vertices) {
     glBindBuffer(GL_ARRAY_BUFFER, 0);
     glBindVertexArray(0);
 }
+
+
 
 

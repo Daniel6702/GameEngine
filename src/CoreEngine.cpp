@@ -30,6 +30,9 @@ bool CoreEngine::init() {
         return false;
     }
 
+    //disable vsync
+    glfwSwapInterval(0);
+
     // Make the window's context current
     glfwMakeContextCurrent(m_window);
 
@@ -39,6 +42,9 @@ bool CoreEngine::init() {
         std::cerr << "Failed to initialize GLEW" << std::endl;
         return -1;
     }
+
+    // Set up the renderer
+    renderer = new Renderer(m_width, m_height);
 
     return true;
 }
@@ -60,6 +66,9 @@ void CoreEngine::run() {
 
         // Render the scene
         m_game->render();
+
+        //proces render queue
+        RenderQueue::getInstance().processQueue(renderer);
 
         // Swap front and back buffers and poll for events
         glfwSwapBuffers(m_window);
