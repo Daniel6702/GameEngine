@@ -1,0 +1,2 @@
+C:\msys64\ucrt64\bin\ar.exe qc libal-excommon.a "CMakeFiles/al-excommon.dir/examples/common/alhelpers.c.obj"
+C:\msys64\ucrt64\bin\ranlib.exe libal-excommon.a

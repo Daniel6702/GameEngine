@@ -1,6 +1,6 @@
 CMakeFiles/MyGameEngine.dir/src/render_queue.cpp.obj: \
  C:\Users\peder\OneDrive\ -\ Aarhus\ universitet\Projects\GameEngine\GameEngine\src\render_queue.cpp \
- C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/include/render_queue.h \
+ C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/include/RENDER~1/render_queue.h \
  C:/msys64/ucrt64/include/c++/13.1.0/map \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/requires_hosted.h \
  C:/msys64/ucrt64/include/c++/13.1.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -66,7 +66,7 @@ CMakeFiles/MyGameEngine.dir/src/render_queue.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/hash_bytes.h \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/refwrap.h \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/vector.tcc \
- C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/include/render_item.h \
+ C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/include/RENDER~1/render_item.h \
  C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/external/GLEW/include/GL/glew.h \
  C:/msys64/ucrt64/include/inttypes.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdint.h \
@@ -248,8 +248,8 @@ CMakeFiles/MyGameEngine.dir/src/render_queue.cpp.obj: \
  C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/external/GLM/glm/detail/type_half.inl \
  C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/external/GLM/glm/integer.hpp \
  C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/external/GLM/glm/detail/func_integer.inl \
- C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/include/renderer.h \
- C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/include/Shader.h \
+ C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/include/RENDER~1/renderer.h \
+ C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/include/RENDER~1/Shader.h \
  C:/msys64/ucrt64/include/c++/13.1.0/string \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/stringfwd.h \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/char_traits.h \
@@ -278,4 +278,5 @@ CMakeFiles/MyGameEngine.dir/src/render_queue.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.1.0/cstdio \
  C:/msys64/ucrt64/include/c++/13.1.0/cerrno \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/charconv.h \
- C:/msys64/ucrt64/include/c++/13.1.0/bits/basic_string.tcc
+ C:/msys64/ucrt64/include/c++/13.1.0/bits/basic_string.tcc \
+ C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/include/constants.h

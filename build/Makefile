@@ -264,6 +264,84 @@ visualinfo/fast:
 	$(MAKE) $(MAKESILENT) -f external\GLEW\build\cmake\CMakeFiles\visualinfo.dir\build.make external/GLEW/build/cmake/CMakeFiles/visualinfo.dir/build
 .PHONY : visualinfo/fast
 
+#=============================================================================
+# Target rules for targets named alcommon
+
+# Build rule for target.
+alcommon: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 alcommon
+.PHONY : alcommon
+
+# fast build rule for target.
+alcommon/fast:
+	$(MAKE) $(MAKESILENT) -f external\AL\CMakeFiles\alcommon.dir\build.make external/AL/CMakeFiles/alcommon.dir/build
+.PHONY : alcommon/fast
+
+#=============================================================================
+# Target rules for targets named OpenAL
+
+# Build rule for target.
+OpenAL: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 OpenAL
+.PHONY : OpenAL
+
+# fast build rule for target.
+OpenAL/fast:
+	$(MAKE) $(MAKESILENT) -f external\AL\CMakeFiles\OpenAL.dir\build.make external/AL/CMakeFiles/OpenAL.dir/build
+.PHONY : OpenAL/fast
+
+#=============================================================================
+# Target rules for targets named openal-info
+
+# Build rule for target.
+openal-info: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 openal-info
+.PHONY : openal-info
+
+# fast build rule for target.
+openal-info/fast:
+	$(MAKE) $(MAKESILENT) -f external\AL\CMakeFiles\openal-info.dir\build.make external/AL/CMakeFiles/openal-info.dir/build
+.PHONY : openal-info/fast
+
+#=============================================================================
+# Target rules for targets named al-excommon
+
+# Build rule for target.
+al-excommon: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 al-excommon
+.PHONY : al-excommon
+
+# fast build rule for target.
+al-excommon/fast:
+	$(MAKE) $(MAKESILENT) -f external\AL\CMakeFiles\al-excommon.dir\build.make external/AL/CMakeFiles/al-excommon.dir/build
+.PHONY : al-excommon/fast
+
+#=============================================================================
+# Target rules for targets named altonegen
+
+# Build rule for target.
+altonegen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 altonegen
+.PHONY : altonegen
+
+# fast build rule for target.
+altonegen/fast:
+	$(MAKE) $(MAKESILENT) -f external\AL\CMakeFiles\altonegen.dir\build.make external/AL/CMakeFiles/altonegen.dir/build
+.PHONY : altonegen/fast
+
+#=============================================================================
+# Target rules for targets named alrecord
+
+# Build rule for target.
+alrecord: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 alrecord
+.PHONY : alrecord
+
+# fast build rule for target.
+alrecord/fast:
+	$(MAKE) $(MAKESILENT) -f external\AL\CMakeFiles\alrecord.dir\build.make external/AL/CMakeFiles/alrecord.dir/build
+.PHONY : alrecord/fast
+
 src/CoreEngine.obj: src/CoreEngine.cpp.obj
 .PHONY : src/CoreEngine.obj
 
@@ -312,29 +390,29 @@ src/background.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/background.cpp.s
 .PHONY : src/background.cpp.s
 
-src/circle.obj: src/circle.cpp.obj
-.PHONY : src/circle.obj
+src/input_handler.obj: src/input_handler.cpp.obj
+.PHONY : src/input_handler.obj
 
 # target to build an object file
-src/circle.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/circle.cpp.obj
-.PHONY : src/circle.cpp.obj
+src/input_handler.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/input_handler.cpp.obj
+.PHONY : src/input_handler.cpp.obj
 
-src/circle.i: src/circle.cpp.i
-.PHONY : src/circle.i
+src/input_handler.i: src/input_handler.cpp.i
+.PHONY : src/input_handler.i
 
 # target to preprocess a source file
-src/circle.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/circle.cpp.i
-.PHONY : src/circle.cpp.i
+src/input_handler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/input_handler.cpp.i
+.PHONY : src/input_handler.cpp.i
 
-src/circle.s: src/circle.cpp.s
-.PHONY : src/circle.s
+src/input_handler.s: src/input_handler.cpp.s
+.PHONY : src/input_handler.s
 
 # target to generate assembly for a file
-src/circle.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/circle.cpp.s
-.PHONY : src/circle.cpp.s
+src/input_handler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/input_handler.cpp.s
+.PHONY : src/input_handler.cpp.s
 
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
@@ -360,101 +438,245 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/render_queue.obj: src/render_queue.cpp.obj
-.PHONY : src/render_queue.obj
+src/rendering/render_queue.obj: src/rendering/render_queue.cpp.obj
+.PHONY : src/rendering/render_queue.obj
 
 # target to build an object file
-src/render_queue.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/render_queue.cpp.obj
-.PHONY : src/render_queue.cpp.obj
+src/rendering/render_queue.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/rendering/render_queue.cpp.obj
+.PHONY : src/rendering/render_queue.cpp.obj
 
-src/render_queue.i: src/render_queue.cpp.i
-.PHONY : src/render_queue.i
+src/rendering/render_queue.i: src/rendering/render_queue.cpp.i
+.PHONY : src/rendering/render_queue.i
 
 # target to preprocess a source file
-src/render_queue.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/render_queue.cpp.i
-.PHONY : src/render_queue.cpp.i
+src/rendering/render_queue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/rendering/render_queue.cpp.i
+.PHONY : src/rendering/render_queue.cpp.i
 
-src/render_queue.s: src/render_queue.cpp.s
-.PHONY : src/render_queue.s
+src/rendering/render_queue.s: src/rendering/render_queue.cpp.s
+.PHONY : src/rendering/render_queue.s
 
 # target to generate assembly for a file
-src/render_queue.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/render_queue.cpp.s
-.PHONY : src/render_queue.cpp.s
+src/rendering/render_queue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/rendering/render_queue.cpp.s
+.PHONY : src/rendering/render_queue.cpp.s
 
-src/renderer.obj: src/renderer.cpp.obj
-.PHONY : src/renderer.obj
+src/rendering/renderer.obj: src/rendering/renderer.cpp.obj
+.PHONY : src/rendering/renderer.obj
 
 # target to build an object file
-src/renderer.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/renderer.cpp.obj
-.PHONY : src/renderer.cpp.obj
+src/rendering/renderer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/rendering/renderer.cpp.obj
+.PHONY : src/rendering/renderer.cpp.obj
 
-src/renderer.i: src/renderer.cpp.i
-.PHONY : src/renderer.i
+src/rendering/renderer.i: src/rendering/renderer.cpp.i
+.PHONY : src/rendering/renderer.i
 
 # target to preprocess a source file
-src/renderer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/renderer.cpp.i
-.PHONY : src/renderer.cpp.i
+src/rendering/renderer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/rendering/renderer.cpp.i
+.PHONY : src/rendering/renderer.cpp.i
 
-src/renderer.s: src/renderer.cpp.s
-.PHONY : src/renderer.s
+src/rendering/renderer.s: src/rendering/renderer.cpp.s
+.PHONY : src/rendering/renderer.s
 
 # target to generate assembly for a file
-src/renderer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/renderer.cpp.s
-.PHONY : src/renderer.cpp.s
+src/rendering/renderer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/rendering/renderer.cpp.s
+.PHONY : src/rendering/renderer.cpp.s
 
-src/shader.obj: src/shader.cpp.obj
-.PHONY : src/shader.obj
+src/rendering/shader.obj: src/rendering/shader.cpp.obj
+.PHONY : src/rendering/shader.obj
 
 # target to build an object file
-src/shader.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/shader.cpp.obj
-.PHONY : src/shader.cpp.obj
+src/rendering/shader.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/rendering/shader.cpp.obj
+.PHONY : src/rendering/shader.cpp.obj
 
-src/shader.i: src/shader.cpp.i
-.PHONY : src/shader.i
+src/rendering/shader.i: src/rendering/shader.cpp.i
+.PHONY : src/rendering/shader.i
 
 # target to preprocess a source file
-src/shader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/shader.cpp.i
-.PHONY : src/shader.cpp.i
+src/rendering/shader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/rendering/shader.cpp.i
+.PHONY : src/rendering/shader.cpp.i
 
-src/shader.s: src/shader.cpp.s
-.PHONY : src/shader.s
+src/rendering/shader.s: src/rendering/shader.cpp.s
+.PHONY : src/rendering/shader.s
 
 # target to generate assembly for a file
-src/shader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/shader.cpp.s
-.PHONY : src/shader.cpp.s
+src/rendering/shader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/rendering/shader.cpp.s
+.PHONY : src/rendering/shader.cpp.s
 
-src/shape.obj: src/shape.cpp.obj
-.PHONY : src/shape.obj
+src/shapes/circle.obj: src/shapes/circle.cpp.obj
+.PHONY : src/shapes/circle.obj
 
 # target to build an object file
-src/shape.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/shape.cpp.obj
-.PHONY : src/shape.cpp.obj
+src/shapes/circle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/shapes/circle.cpp.obj
+.PHONY : src/shapes/circle.cpp.obj
 
-src/shape.i: src/shape.cpp.i
-.PHONY : src/shape.i
+src/shapes/circle.i: src/shapes/circle.cpp.i
+.PHONY : src/shapes/circle.i
 
 # target to preprocess a source file
-src/shape.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/shape.cpp.i
-.PHONY : src/shape.cpp.i
+src/shapes/circle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/shapes/circle.cpp.i
+.PHONY : src/shapes/circle.cpp.i
 
-src/shape.s: src/shape.cpp.s
-.PHONY : src/shape.s
+src/shapes/circle.s: src/shapes/circle.cpp.s
+.PHONY : src/shapes/circle.s
 
 # target to generate assembly for a file
-src/shape.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/shape.cpp.s
-.PHONY : src/shape.cpp.s
+src/shapes/circle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/shapes/circle.cpp.s
+.PHONY : src/shapes/circle.cpp.s
+
+src/shapes/ellipse.obj: src/shapes/ellipse.cpp.obj
+.PHONY : src/shapes/ellipse.obj
+
+# target to build an object file
+src/shapes/ellipse.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/shapes/ellipse.cpp.obj
+.PHONY : src/shapes/ellipse.cpp.obj
+
+src/shapes/ellipse.i: src/shapes/ellipse.cpp.i
+.PHONY : src/shapes/ellipse.i
+
+# target to preprocess a source file
+src/shapes/ellipse.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/shapes/ellipse.cpp.i
+.PHONY : src/shapes/ellipse.cpp.i
+
+src/shapes/ellipse.s: src/shapes/ellipse.cpp.s
+.PHONY : src/shapes/ellipse.s
+
+# target to generate assembly for a file
+src/shapes/ellipse.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/shapes/ellipse.cpp.s
+.PHONY : src/shapes/ellipse.cpp.s
+
+src/shapes/line.obj: src/shapes/line.cpp.obj
+.PHONY : src/shapes/line.obj
+
+# target to build an object file
+src/shapes/line.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/shapes/line.cpp.obj
+.PHONY : src/shapes/line.cpp.obj
+
+src/shapes/line.i: src/shapes/line.cpp.i
+.PHONY : src/shapes/line.i
+
+# target to preprocess a source file
+src/shapes/line.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/shapes/line.cpp.i
+.PHONY : src/shapes/line.cpp.i
+
+src/shapes/line.s: src/shapes/line.cpp.s
+.PHONY : src/shapes/line.s
+
+# target to generate assembly for a file
+src/shapes/line.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/shapes/line.cpp.s
+.PHONY : src/shapes/line.cpp.s
+
+src/shapes/rectangle.obj: src/shapes/rectangle.cpp.obj
+.PHONY : src/shapes/rectangle.obj
+
+# target to build an object file
+src/shapes/rectangle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/shapes/rectangle.cpp.obj
+.PHONY : src/shapes/rectangle.cpp.obj
+
+src/shapes/rectangle.i: src/shapes/rectangle.cpp.i
+.PHONY : src/shapes/rectangle.i
+
+# target to preprocess a source file
+src/shapes/rectangle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/shapes/rectangle.cpp.i
+.PHONY : src/shapes/rectangle.cpp.i
+
+src/shapes/rectangle.s: src/shapes/rectangle.cpp.s
+.PHONY : src/shapes/rectangle.s
+
+# target to generate assembly for a file
+src/shapes/rectangle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/shapes/rectangle.cpp.s
+.PHONY : src/shapes/rectangle.cpp.s
+
+src/shapes/shape.obj: src/shapes/shape.cpp.obj
+.PHONY : src/shapes/shape.obj
+
+# target to build an object file
+src/shapes/shape.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/shapes/shape.cpp.obj
+.PHONY : src/shapes/shape.cpp.obj
+
+src/shapes/shape.i: src/shapes/shape.cpp.i
+.PHONY : src/shapes/shape.i
+
+# target to preprocess a source file
+src/shapes/shape.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/shapes/shape.cpp.i
+.PHONY : src/shapes/shape.cpp.i
+
+src/shapes/shape.s: src/shapes/shape.cpp.s
+.PHONY : src/shapes/shape.s
+
+# target to generate assembly for a file
+src/shapes/shape.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/shapes/shape.cpp.s
+.PHONY : src/shapes/shape.cpp.s
+
+src/shapes/star.obj: src/shapes/star.cpp.obj
+.PHONY : src/shapes/star.obj
+
+# target to build an object file
+src/shapes/star.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/shapes/star.cpp.obj
+.PHONY : src/shapes/star.cpp.obj
+
+src/shapes/star.i: src/shapes/star.cpp.i
+.PHONY : src/shapes/star.i
+
+# target to preprocess a source file
+src/shapes/star.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/shapes/star.cpp.i
+.PHONY : src/shapes/star.cpp.i
+
+src/shapes/star.s: src/shapes/star.cpp.s
+.PHONY : src/shapes/star.s
+
+# target to generate assembly for a file
+src/shapes/star.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/shapes/star.cpp.s
+.PHONY : src/shapes/star.cpp.s
+
+src/shapes/triangle.obj: src/shapes/triangle.cpp.obj
+.PHONY : src/shapes/triangle.obj
+
+# target to build an object file
+src/shapes/triangle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/shapes/triangle.cpp.obj
+.PHONY : src/shapes/triangle.cpp.obj
+
+src/shapes/triangle.i: src/shapes/triangle.cpp.i
+.PHONY : src/shapes/triangle.i
+
+# target to preprocess a source file
+src/shapes/triangle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/shapes/triangle.cpp.i
+.PHONY : src/shapes/triangle.cpp.i
+
+src/shapes/triangle.s: src/shapes/triangle.cpp.s
+.PHONY : src/shapes/triangle.s
+
+# target to generate assembly for a file
+src/shapes/triangle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyGameEngine.dir\build.make CMakeFiles/MyGameEngine.dir/src/shapes/triangle.cpp.s
+.PHONY : src/shapes/triangle.cpp.s
 
 # Help Target
 help:
@@ -471,10 +693,16 @@ help:
 	@echo ... uninstall
 	@echo ... update_mappings
 	@echo ... MyGameEngine
+	@echo ... OpenAL
+	@echo ... al-excommon
+	@echo ... alcommon
+	@echo ... alrecord
+	@echo ... altonegen
 	@echo ... glew
 	@echo ... glew_s
 	@echo ... glewinfo
 	@echo ... glfw
+	@echo ... openal-info
 	@echo ... visualinfo
 	@echo ... src/CoreEngine.obj
 	@echo ... src/CoreEngine.i
@@ -482,24 +710,42 @@ help:
 	@echo ... src/background.obj
 	@echo ... src/background.i
 	@echo ... src/background.s
-	@echo ... src/circle.obj
-	@echo ... src/circle.i
-	@echo ... src/circle.s
+	@echo ... src/input_handler.obj
+	@echo ... src/input_handler.i
+	@echo ... src/input_handler.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
-	@echo ... src/render_queue.obj
-	@echo ... src/render_queue.i
-	@echo ... src/render_queue.s
-	@echo ... src/renderer.obj
-	@echo ... src/renderer.i
-	@echo ... src/renderer.s
-	@echo ... src/shader.obj
-	@echo ... src/shader.i
-	@echo ... src/shader.s
-	@echo ... src/shape.obj
-	@echo ... src/shape.i
-	@echo ... src/shape.s
+	@echo ... src/rendering/render_queue.obj
+	@echo ... src/rendering/render_queue.i
+	@echo ... src/rendering/render_queue.s
+	@echo ... src/rendering/renderer.obj
+	@echo ... src/rendering/renderer.i
+	@echo ... src/rendering/renderer.s
+	@echo ... src/rendering/shader.obj
+	@echo ... src/rendering/shader.i
+	@echo ... src/rendering/shader.s
+	@echo ... src/shapes/circle.obj
+	@echo ... src/shapes/circle.i
+	@echo ... src/shapes/circle.s
+	@echo ... src/shapes/ellipse.obj
+	@echo ... src/shapes/ellipse.i
+	@echo ... src/shapes/ellipse.s
+	@echo ... src/shapes/line.obj
+	@echo ... src/shapes/line.i
+	@echo ... src/shapes/line.s
+	@echo ... src/shapes/rectangle.obj
+	@echo ... src/shapes/rectangle.i
+	@echo ... src/shapes/rectangle.s
+	@echo ... src/shapes/shape.obj
+	@echo ... src/shapes/shape.i
+	@echo ... src/shapes/shape.s
+	@echo ... src/shapes/star.obj
+	@echo ... src/shapes/star.i
+	@echo ... src/shapes/star.s
+	@echo ... src/shapes/triangle.obj
+	@echo ... src/shapes/triangle.i
+	@echo ... src/shapes/triangle.s
 .PHONY : help
 
 

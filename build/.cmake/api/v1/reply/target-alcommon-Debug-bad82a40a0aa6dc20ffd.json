@@ -1,0 +1,419 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "external/AL/libalcommon.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_compile_options",
+			"target_compile_definitions",
+			"target_include_directories",
+			"set_target_properties"
+		],
+		"files" : 
+		[
+			"external/AL/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1337,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 1341,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 1340,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 1338,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 1342,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -Wall -Wextra -Wpedantic -g -std=gnu++17"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Winline"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wunused"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wshadow"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wconversion"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wcast-align"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wold-style-cast"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wnon-virtual-dtor"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Woverloaded-virtual"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wno-c++20-attribute-extensions"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-fno-math-errno"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "NOMINMAX"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "RESTRICT=__restrict"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "_WIN32"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "__USE_MINGW_ANSI_STDIO"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/common"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					5
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				1,
+				6,
+				9,
+				11,
+				17,
+				22,
+				25,
+				28,
+				30
+			]
+		}
+	],
+	"id" : "alcommon::@a58e30f7189b5b039874",
+	"name" : "alcommon",
+	"nameOnDisk" : "libalcommon.a",
+	"paths" : 
+	{
+		"build" : "external/AL",
+		"source" : "external/AL"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				3,
+				4,
+				5,
+				7,
+				8,
+				10,
+				12,
+				13,
+				14,
+				15,
+				16,
+				18,
+				19,
+				20,
+				21,
+				23,
+				24,
+				26,
+				27,
+				29,
+				31,
+				32,
+				33
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				1,
+				6,
+				9,
+				11,
+				17,
+				22,
+				25,
+				28,
+				30
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "external/AL/common/albit.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/AL/common/alcomplex.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/AL/common/alcomplex.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/AL/common/almalloc.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/AL/common/alnumbers.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/AL/common/alnumeric.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/AL/common/alsem.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/AL/common/alsem.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/AL/common/alspan.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/AL/common/alstring.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/AL/common/alstring.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/AL/common/althrd_setname.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/AL/common/althrd_setname.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/AL/common/althreads.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/AL/common/altraits.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/AL/common/atomic.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/AL/common/comptr.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/AL/common/dynload.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/AL/common/dynload.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/AL/common/flexarray.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/AL/common/intrusive_ptr.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/AL/common/opthelpers.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/AL/common/pffft.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/AL/common/pffft.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/AL/common/phase_shifter.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/AL/common/polyphase_resampler.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/AL/common/polyphase_resampler.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/AL/common/pragmadefs.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/AL/common/ringbuffer.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/AL/common/ringbuffer.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/AL/common/strutils.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/AL/common/strutils.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/AL/common/vecmat.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/AL/common/vector.h",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

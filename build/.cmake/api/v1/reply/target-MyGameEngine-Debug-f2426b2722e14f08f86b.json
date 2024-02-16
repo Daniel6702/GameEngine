@@ -1,0 +1,404 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "MyGameEngine/MyGameEngine.exe"
+		},
+		{
+			"path" : "MyGameEngine/MyGameEngine.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"add_definitions",
+			"include_directories",
+			"include_sub_directories_recursively"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"external/GLEW/build/cmake/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 52,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 64,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 135,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 58,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 33,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 33,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 33,
+				"parent" : 10
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 33,
+				"parent" : 12
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 33,
+				"parent" : 14
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 47,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -Wall -Wextra -Wpedantic -w -g -std=gnu++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "GLEW_STATIC"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "GLFW_INCLUDE_NONE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/include/engine"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/include/interface"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/include/rendering"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/include/shapes"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/GLM/glm"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/GLFW/include/GLFW"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/GLEW/include"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/include/AL"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/GLFW/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "glfw::@39536130fdb1aa6d70f0"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "glew_s::@ee331164d27624c8a330"
+		}
+	],
+	"id" : "MyGameEngine::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Wall -Wextra -Wpedantic -w -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lopengl32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "external\\GLFW\\src\\libglfw3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "lib\\libglew32d.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-lopengl32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-lglu32",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "MyGameEngine",
+	"nameOnDisk" : "MyGameEngine.exe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				14
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/CoreEngine.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/background.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/input_handler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/rendering/render_queue.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/rendering/renderer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/rendering/shader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/shapes/circle.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/shapes/ellipse.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/shapes/line.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/shapes/rectangle.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/shapes/shape.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/shapes/star.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/shapes/triangle.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/MyGame.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

@@ -6,5 +6,5 @@ CXX_DEFINES = -DGLEW_STATIC -DGLFW_INCLUDE_NONE
 
 CXX_INCLUDES = @CMakeFiles/MyGameEngine.dir/includes_CXX.rsp
 
-CXX_FLAGS =  -Wall -Wextra -Wpedantic -g -std=gnu++17
+CXX_FLAGS =  -Wall -Wextra -Wpedantic -w -g -std=gnu++17
 

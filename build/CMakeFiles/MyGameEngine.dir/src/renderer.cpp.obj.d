@@ -1,7 +1,7 @@
 CMakeFiles/MyGameEngine.dir/src/renderer.cpp.obj: \
  C:\Users\peder\OneDrive\ -\ Aarhus\ universitet\Projects\GameEngine\GameEngine\src\renderer.cpp \
- C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/include/Renderer.h \
- C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/include/Shader.h \
+ C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/include/RENDER~1/Renderer.h \
+ C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/include/RENDER~1/Shader.h \
  C:/msys64/ucrt64/include/c++/13.1.0/string \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/requires_hosted.h \
  C:/msys64/ucrt64/include/c++/13.1.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -264,4 +264,5 @@ CMakeFiles/MyGameEngine.dir/src/renderer.cpp.obj: \
  C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/external/GLM/glm/detail/type_half.hpp \
  C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/external/GLM/glm/detail/type_half.inl \
  C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/external/GLM/glm/integer.hpp \
- C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/external/GLM/glm/detail/func_integer.inl
+ C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/external/GLM/glm/detail/func_integer.inl \
+ C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/include/constants.h

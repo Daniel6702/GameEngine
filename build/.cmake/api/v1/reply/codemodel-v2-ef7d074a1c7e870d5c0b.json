@@ -1,0 +1,315 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "external/GLFW",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.GLFW-Debug-66b25e7c065ec072b45e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "external/GLFW",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "external/GLFW/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.GLFW.src-Debug-a7fc9f7559db60e5bf19.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "external/GLFW/src",
+					"targetIndexes" : 
+					[
+						9,
+						12
+					]
+				},
+				{
+					"build" : "external/GLEW/build/cmake",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.GLEW.build.cmake-Debug-50e8d624e1e9e01b7f01.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "external/GLEW/build/cmake",
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8,
+						13
+					]
+				},
+				{
+					"build" : "external/AL",
+					"childIndexes" : 
+					[
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.AL-Debug-ae79dcefe8c8031e9baf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "external/AL",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						10
+					]
+				},
+				{
+					"build" : "external/AL/utils/alsoft-config",
+					"jsonFile" : "directory-external.AL.utils.alsoft-config-Debug-a9317c19393c4242ea5b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 4,
+					"source" : "external/AL/utils/alsoft-config"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MyGameEngine",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						9,
+						11,
+						12
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "glew",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8,
+						13
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						4
+					],
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "OpenAL",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "alsoft-config",
+					"parentIndex" : 3
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "MyGameEngine::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MyGameEngine-Debug-f2426b2722e14f08f86b.json",
+					"name" : "MyGameEngine",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "OpenAL::@a58e30f7189b5b039874",
+					"jsonFile" : "target-OpenAL-Debug-a71a6045793aec64a06e.json",
+					"name" : "OpenAL",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "al-excommon::@a58e30f7189b5b039874",
+					"jsonFile" : "target-al-excommon-Debug-fe8ab2bd45e789ffa39b.json",
+					"name" : "al-excommon",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "alcommon::@a58e30f7189b5b039874",
+					"jsonFile" : "target-alcommon-Debug-bad82a40a0aa6dc20ffd.json",
+					"name" : "alcommon",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "alrecord::@a58e30f7189b5b039874",
+					"jsonFile" : "target-alrecord-Debug-f30c53988a77dcd5ab67.json",
+					"name" : "alrecord",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "altonegen::@a58e30f7189b5b039874",
+					"jsonFile" : "target-altonegen-Debug-aaf5eb7356db066610d9.json",
+					"name" : "altonegen",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glew::@ee331164d27624c8a330",
+					"jsonFile" : "target-glew-Debug-af5e01b04ad3752cc6c8.json",
+					"name" : "glew",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glew_s::@ee331164d27624c8a330",
+					"jsonFile" : "target-glew_s-Debug-79dd379edf7122e6b230.json",
+					"name" : "glew_s",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glewinfo::@ee331164d27624c8a330",
+					"jsonFile" : "target-glewinfo-Debug-ecb56dea38a468ccccd6.json",
+					"name" : "glewinfo",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "glfw::@39536130fdb1aa6d70f0",
+					"jsonFile" : "target-glfw-Debug-4b5109f232e41117a575.json",
+					"name" : "glfw",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "openal-info::@a58e30f7189b5b039874",
+					"jsonFile" : "target-openal-info-Debug-37d4669a5504e6788f08.json",
+					"name" : "openal-info",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "uninstall::@ef520d692830fbb39ca3",
+					"jsonFile" : "target-uninstall-Debug-8c4f346bd884e9b2b2af.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "update_mappings::@39536130fdb1aa6d70f0",
+					"jsonFile" : "target-update_mappings-Debug-c1d5c748f0eb8329dfca.json",
+					"name" : "update_mappings",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "visualinfo::@ee331164d27624c8a330",
+					"jsonFile" : "target-visualinfo-Debug-1f7b74fc6077fcf26e92.json",
+					"name" : "visualinfo",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build",
+		"source" : "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

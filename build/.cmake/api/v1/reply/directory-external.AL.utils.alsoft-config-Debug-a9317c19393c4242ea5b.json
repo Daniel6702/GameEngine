@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "external/AL/utils/alsoft-config",
+		"source" : "external/AL/utils/alsoft-config"
+	}
+}

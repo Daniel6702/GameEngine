@@ -1,0 +1,223 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "external/AL/openal-info.exe"
+		},
+		{
+			"path" : "external/AL/openal-info.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"install",
+			"target_link_libraries",
+			"target_compile_options",
+			"target_include_directories",
+			"set_target_properties"
+		],
+		"files" : 
+		[
+			"external/AL/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1614,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 1823,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 1617,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 1616,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 1615,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 1618,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu11"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Winline"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wunused"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wshadow"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wconversion"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wcast-align"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fno-math-errno"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/common"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/include/AL"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					6
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "OpenAL::@a58e30f7189b5b039874"
+		}
+	],
+	"id" : "openal-info::@a58e30f7189b5b039874",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Program Files (x86)/MyGameEngine"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "libOpenAL32.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-municode",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "openal-info",
+	"nameOnDisk" : "openal-info.exe",
+	"paths" : 
+	{
+		"build" : "external/AL",
+		"source" : "external/AL"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/AL/utils/openal-info.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

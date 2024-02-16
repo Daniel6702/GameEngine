@@ -98,20 +98,20 @@ CMakeFiles/MyGameEngine.dir/src/background.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyGameEngine.dir/src/background.cpp.s"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\src\background.cpp" -o CMakeFiles\MyGameEngine.dir\src\background.cpp.s
 
-CMakeFiles/MyGameEngine.dir/src/circle.cpp.obj: CMakeFiles/MyGameEngine.dir/flags.make
-CMakeFiles/MyGameEngine.dir/src/circle.cpp.obj: CMakeFiles/MyGameEngine.dir/includes_CXX.rsp
-CMakeFiles/MyGameEngine.dir/src/circle.cpp.obj: C:/Users/peder/OneDrive\ -\ Aarhus\ universitet/Projects/GameEngine/GameEngine/src/circle.cpp
-CMakeFiles/MyGameEngine.dir/src/circle.cpp.obj: CMakeFiles/MyGameEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MyGameEngine.dir/src/circle.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyGameEngine.dir/src/circle.cpp.obj -MF CMakeFiles\MyGameEngine.dir\src\circle.cpp.obj.d -o CMakeFiles\MyGameEngine.dir\src\circle.cpp.obj -c "C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\src\circle.cpp"
+CMakeFiles/MyGameEngine.dir/src/input_handler.cpp.obj: CMakeFiles/MyGameEngine.dir/flags.make
+CMakeFiles/MyGameEngine.dir/src/input_handler.cpp.obj: CMakeFiles/MyGameEngine.dir/includes_CXX.rsp
+CMakeFiles/MyGameEngine.dir/src/input_handler.cpp.obj: C:/Users/peder/OneDrive\ -\ Aarhus\ universitet/Projects/GameEngine/GameEngine/src/input_handler.cpp
+CMakeFiles/MyGameEngine.dir/src/input_handler.cpp.obj: CMakeFiles/MyGameEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MyGameEngine.dir/src/input_handler.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyGameEngine.dir/src/input_handler.cpp.obj -MF CMakeFiles\MyGameEngine.dir\src\input_handler.cpp.obj.d -o CMakeFiles\MyGameEngine.dir\src\input_handler.cpp.obj -c "C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\src\input_handler.cpp"
 
-CMakeFiles/MyGameEngine.dir/src/circle.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyGameEngine.dir/src/circle.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\src\circle.cpp" > CMakeFiles\MyGameEngine.dir\src\circle.cpp.i
+CMakeFiles/MyGameEngine.dir/src/input_handler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyGameEngine.dir/src/input_handler.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\src\input_handler.cpp" > CMakeFiles\MyGameEngine.dir\src\input_handler.cpp.i
 
-CMakeFiles/MyGameEngine.dir/src/circle.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyGameEngine.dir/src/circle.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\src\circle.cpp" -o CMakeFiles\MyGameEngine.dir\src\circle.cpp.s
+CMakeFiles/MyGameEngine.dir/src/input_handler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyGameEngine.dir/src/input_handler.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\src\input_handler.cpp" -o CMakeFiles\MyGameEngine.dir\src\input_handler.cpp.s
 
 CMakeFiles/MyGameEngine.dir/src/main.cpp.obj: CMakeFiles/MyGameEngine.dir/flags.make
 CMakeFiles/MyGameEngine.dir/src/main.cpp.obj: CMakeFiles/MyGameEngine.dir/includes_CXX.rsp
@@ -128,95 +128,197 @@ CMakeFiles/MyGameEngine.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyGameEngine.dir/src/main.cpp.s"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\src\main.cpp" -o CMakeFiles\MyGameEngine.dir\src\main.cpp.s
 
-CMakeFiles/MyGameEngine.dir/src/render_queue.cpp.obj: CMakeFiles/MyGameEngine.dir/flags.make
-CMakeFiles/MyGameEngine.dir/src/render_queue.cpp.obj: CMakeFiles/MyGameEngine.dir/includes_CXX.rsp
-CMakeFiles/MyGameEngine.dir/src/render_queue.cpp.obj: C:/Users/peder/OneDrive\ -\ Aarhus\ universitet/Projects/GameEngine/GameEngine/src/render_queue.cpp
-CMakeFiles/MyGameEngine.dir/src/render_queue.cpp.obj: CMakeFiles/MyGameEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MyGameEngine.dir/src/render_queue.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyGameEngine.dir/src/render_queue.cpp.obj -MF CMakeFiles\MyGameEngine.dir\src\render_queue.cpp.obj.d -o CMakeFiles\MyGameEngine.dir\src\render_queue.cpp.obj -c "C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\src\render_queue.cpp"
+CMakeFiles/MyGameEngine.dir/src/rendering/render_queue.cpp.obj: CMakeFiles/MyGameEngine.dir/flags.make
+CMakeFiles/MyGameEngine.dir/src/rendering/render_queue.cpp.obj: CMakeFiles/MyGameEngine.dir/includes_CXX.rsp
+CMakeFiles/MyGameEngine.dir/src/rendering/render_queue.cpp.obj: C:/Users/peder/OneDrive\ -\ Aarhus\ universitet/Projects/GameEngine/GameEngine/src/rendering/render_queue.cpp
+CMakeFiles/MyGameEngine.dir/src/rendering/render_queue.cpp.obj: CMakeFiles/MyGameEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MyGameEngine.dir/src/rendering/render_queue.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyGameEngine.dir/src/rendering/render_queue.cpp.obj -MF CMakeFiles\MyGameEngine.dir\src\rendering\render_queue.cpp.obj.d -o CMakeFiles\MyGameEngine.dir\src\rendering\render_queue.cpp.obj -c "C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\src\rendering\render_queue.cpp"
 
-CMakeFiles/MyGameEngine.dir/src/render_queue.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyGameEngine.dir/src/render_queue.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\src\render_queue.cpp" > CMakeFiles\MyGameEngine.dir\src\render_queue.cpp.i
+CMakeFiles/MyGameEngine.dir/src/rendering/render_queue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyGameEngine.dir/src/rendering/render_queue.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\src\rendering\render_queue.cpp" > CMakeFiles\MyGameEngine.dir\src\rendering\render_queue.cpp.i
 
-CMakeFiles/MyGameEngine.dir/src/render_queue.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyGameEngine.dir/src/render_queue.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\src\render_queue.cpp" -o CMakeFiles\MyGameEngine.dir\src\render_queue.cpp.s
+CMakeFiles/MyGameEngine.dir/src/rendering/render_queue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyGameEngine.dir/src/rendering/render_queue.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\src\rendering\render_queue.cpp" -o CMakeFiles\MyGameEngine.dir\src\rendering\render_queue.cpp.s
 
-CMakeFiles/MyGameEngine.dir/src/renderer.cpp.obj: CMakeFiles/MyGameEngine.dir/flags.make
-CMakeFiles/MyGameEngine.dir/src/renderer.cpp.obj: CMakeFiles/MyGameEngine.dir/includes_CXX.rsp
-CMakeFiles/MyGameEngine.dir/src/renderer.cpp.obj: C:/Users/peder/OneDrive\ -\ Aarhus\ universitet/Projects/GameEngine/GameEngine/src/renderer.cpp
-CMakeFiles/MyGameEngine.dir/src/renderer.cpp.obj: CMakeFiles/MyGameEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MyGameEngine.dir/src/renderer.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyGameEngine.dir/src/renderer.cpp.obj -MF CMakeFiles\MyGameEngine.dir\src\renderer.cpp.obj.d -o CMakeFiles\MyGameEngine.dir\src\renderer.cpp.obj -c "C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\src\renderer.cpp"
+CMakeFiles/MyGameEngine.dir/src/rendering/renderer.cpp.obj: CMakeFiles/MyGameEngine.dir/flags.make
+CMakeFiles/MyGameEngine.dir/src/rendering/renderer.cpp.obj: CMakeFiles/MyGameEngine.dir/includes_CXX.rsp
+CMakeFiles/MyGameEngine.dir/src/rendering/renderer.cpp.obj: C:/Users/peder/OneDrive\ -\ Aarhus\ universitet/Projects/GameEngine/GameEngine/src/rendering/renderer.cpp
+CMakeFiles/MyGameEngine.dir/src/rendering/renderer.cpp.obj: CMakeFiles/MyGameEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MyGameEngine.dir/src/rendering/renderer.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyGameEngine.dir/src/rendering/renderer.cpp.obj -MF CMakeFiles\MyGameEngine.dir\src\rendering\renderer.cpp.obj.d -o CMakeFiles\MyGameEngine.dir\src\rendering\renderer.cpp.obj -c "C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\src\rendering\renderer.cpp"
 
-CMakeFiles/MyGameEngine.dir/src/renderer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyGameEngine.dir/src/renderer.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\src\renderer.cpp" > CMakeFiles\MyGameEngine.dir\src\renderer.cpp.i
+CMakeFiles/MyGameEngine.dir/src/rendering/renderer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyGameEngine.dir/src/rendering/renderer.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\src\rendering\renderer.cpp" > CMakeFiles\MyGameEngine.dir\src\rendering\renderer.cpp.i
 
-CMakeFiles/MyGameEngine.dir/src/renderer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyGameEngine.dir/src/renderer.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\src\renderer.cpp" -o CMakeFiles\MyGameEngine.dir\src\renderer.cpp.s
+CMakeFiles/MyGameEngine.dir/src/rendering/renderer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyGameEngine.dir/src/rendering/renderer.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\src\rendering\renderer.cpp" -o CMakeFiles\MyGameEngine.dir\src\rendering\renderer.cpp.s
 
-CMakeFiles/MyGameEngine.dir/src/shader.cpp.obj: CMakeFiles/MyGameEngine.dir/flags.make
-CMakeFiles/MyGameEngine.dir/src/shader.cpp.obj: CMakeFiles/MyGameEngine.dir/includes_CXX.rsp
-CMakeFiles/MyGameEngine.dir/src/shader.cpp.obj: C:/Users/peder/OneDrive\ -\ Aarhus\ universitet/Projects/GameEngine/GameEngine/src/shader.cpp
-CMakeFiles/MyGameEngine.dir/src/shader.cpp.obj: CMakeFiles/MyGameEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MyGameEngine.dir/src/shader.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyGameEngine.dir/src/shader.cpp.obj -MF CMakeFiles\MyGameEngine.dir\src\shader.cpp.obj.d -o CMakeFiles\MyGameEngine.dir\src\shader.cpp.obj -c "C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\src\shader.cpp"
+CMakeFiles/MyGameEngine.dir/src/rendering/shader.cpp.obj: CMakeFiles/MyGameEngine.dir/flags.make
+CMakeFiles/MyGameEngine.dir/src/rendering/shader.cpp.obj: CMakeFiles/MyGameEngine.dir/includes_CXX.rsp
+CMakeFiles/MyGameEngine.dir/src/rendering/shader.cpp.obj: C:/Users/peder/OneDrive\ -\ Aarhus\ universitet/Projects/GameEngine/GameEngine/src/rendering/shader.cpp
+CMakeFiles/MyGameEngine.dir/src/rendering/shader.cpp.obj: CMakeFiles/MyGameEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MyGameEngine.dir/src/rendering/shader.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyGameEngine.dir/src/rendering/shader.cpp.obj -MF CMakeFiles\MyGameEngine.dir\src\rendering\shader.cpp.obj.d -o CMakeFiles\MyGameEngine.dir\src\rendering\shader.cpp.obj -c "C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\src\rendering\shader.cpp"
 
-CMakeFiles/MyGameEngine.dir/src/shader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyGameEngine.dir/src/shader.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\src\shader.cpp" > CMakeFiles\MyGameEngine.dir\src\shader.cpp.i
+CMakeFiles/MyGameEngine.dir/src/rendering/shader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyGameEngine.dir/src/rendering/shader.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\src\rendering\shader.cpp" > CMakeFiles\MyGameEngine.dir\src\rendering\shader.cpp.i
 
-CMakeFiles/MyGameEngine.dir/src/shader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyGameEngine.dir/src/shader.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\src\shader.cpp" -o CMakeFiles\MyGameEngine.dir\src\shader.cpp.s
+CMakeFiles/MyGameEngine.dir/src/rendering/shader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyGameEngine.dir/src/rendering/shader.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\src\rendering\shader.cpp" -o CMakeFiles\MyGameEngine.dir\src\rendering\shader.cpp.s
 
-CMakeFiles/MyGameEngine.dir/src/shape.cpp.obj: CMakeFiles/MyGameEngine.dir/flags.make
-CMakeFiles/MyGameEngine.dir/src/shape.cpp.obj: CMakeFiles/MyGameEngine.dir/includes_CXX.rsp
-CMakeFiles/MyGameEngine.dir/src/shape.cpp.obj: C:/Users/peder/OneDrive\ -\ Aarhus\ universitet/Projects/GameEngine/GameEngine/src/shape.cpp
-CMakeFiles/MyGameEngine.dir/src/shape.cpp.obj: CMakeFiles/MyGameEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/MyGameEngine.dir/src/shape.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyGameEngine.dir/src/shape.cpp.obj -MF CMakeFiles\MyGameEngine.dir\src\shape.cpp.obj.d -o CMakeFiles\MyGameEngine.dir\src\shape.cpp.obj -c "C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\src\shape.cpp"
+CMakeFiles/MyGameEngine.dir/src/shapes/circle.cpp.obj: CMakeFiles/MyGameEngine.dir/flags.make
+CMakeFiles/MyGameEngine.dir/src/shapes/circle.cpp.obj: CMakeFiles/MyGameEngine.dir/includes_CXX.rsp
+CMakeFiles/MyGameEngine.dir/src/shapes/circle.cpp.obj: C:/Users/peder/OneDrive\ -\ Aarhus\ universitet/Projects/GameEngine/GameEngine/src/shapes/circle.cpp
+CMakeFiles/MyGameEngine.dir/src/shapes/circle.cpp.obj: CMakeFiles/MyGameEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/MyGameEngine.dir/src/shapes/circle.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyGameEngine.dir/src/shapes/circle.cpp.obj -MF CMakeFiles\MyGameEngine.dir\src\shapes\circle.cpp.obj.d -o CMakeFiles\MyGameEngine.dir\src\shapes\circle.cpp.obj -c "C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\src\shapes\circle.cpp"
 
-CMakeFiles/MyGameEngine.dir/src/shape.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyGameEngine.dir/src/shape.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\src\shape.cpp" > CMakeFiles\MyGameEngine.dir\src\shape.cpp.i
+CMakeFiles/MyGameEngine.dir/src/shapes/circle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyGameEngine.dir/src/shapes/circle.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\src\shapes\circle.cpp" > CMakeFiles\MyGameEngine.dir\src\shapes\circle.cpp.i
 
-CMakeFiles/MyGameEngine.dir/src/shape.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyGameEngine.dir/src/shape.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\src\shape.cpp" -o CMakeFiles\MyGameEngine.dir\src\shape.cpp.s
+CMakeFiles/MyGameEngine.dir/src/shapes/circle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyGameEngine.dir/src/shapes/circle.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\src\shapes\circle.cpp" -o CMakeFiles\MyGameEngine.dir\src\shapes\circle.cpp.s
+
+CMakeFiles/MyGameEngine.dir/src/shapes/ellipse.cpp.obj: CMakeFiles/MyGameEngine.dir/flags.make
+CMakeFiles/MyGameEngine.dir/src/shapes/ellipse.cpp.obj: CMakeFiles/MyGameEngine.dir/includes_CXX.rsp
+CMakeFiles/MyGameEngine.dir/src/shapes/ellipse.cpp.obj: C:/Users/peder/OneDrive\ -\ Aarhus\ universitet/Projects/GameEngine/GameEngine/src/shapes/ellipse.cpp
+CMakeFiles/MyGameEngine.dir/src/shapes/ellipse.cpp.obj: CMakeFiles/MyGameEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/MyGameEngine.dir/src/shapes/ellipse.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyGameEngine.dir/src/shapes/ellipse.cpp.obj -MF CMakeFiles\MyGameEngine.dir\src\shapes\ellipse.cpp.obj.d -o CMakeFiles\MyGameEngine.dir\src\shapes\ellipse.cpp.obj -c "C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\src\shapes\ellipse.cpp"
+
+CMakeFiles/MyGameEngine.dir/src/shapes/ellipse.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyGameEngine.dir/src/shapes/ellipse.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\src\shapes\ellipse.cpp" > CMakeFiles\MyGameEngine.dir\src\shapes\ellipse.cpp.i
+
+CMakeFiles/MyGameEngine.dir/src/shapes/ellipse.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyGameEngine.dir/src/shapes/ellipse.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\src\shapes\ellipse.cpp" -o CMakeFiles\MyGameEngine.dir\src\shapes\ellipse.cpp.s
+
+CMakeFiles/MyGameEngine.dir/src/shapes/line.cpp.obj: CMakeFiles/MyGameEngine.dir/flags.make
+CMakeFiles/MyGameEngine.dir/src/shapes/line.cpp.obj: CMakeFiles/MyGameEngine.dir/includes_CXX.rsp
+CMakeFiles/MyGameEngine.dir/src/shapes/line.cpp.obj: C:/Users/peder/OneDrive\ -\ Aarhus\ universitet/Projects/GameEngine/GameEngine/src/shapes/line.cpp
+CMakeFiles/MyGameEngine.dir/src/shapes/line.cpp.obj: CMakeFiles/MyGameEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/MyGameEngine.dir/src/shapes/line.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyGameEngine.dir/src/shapes/line.cpp.obj -MF CMakeFiles\MyGameEngine.dir\src\shapes\line.cpp.obj.d -o CMakeFiles\MyGameEngine.dir\src\shapes\line.cpp.obj -c "C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\src\shapes\line.cpp"
+
+CMakeFiles/MyGameEngine.dir/src/shapes/line.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyGameEngine.dir/src/shapes/line.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\src\shapes\line.cpp" > CMakeFiles\MyGameEngine.dir\src\shapes\line.cpp.i
+
+CMakeFiles/MyGameEngine.dir/src/shapes/line.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyGameEngine.dir/src/shapes/line.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\src\shapes\line.cpp" -o CMakeFiles\MyGameEngine.dir\src\shapes\line.cpp.s
+
+CMakeFiles/MyGameEngine.dir/src/shapes/rectangle.cpp.obj: CMakeFiles/MyGameEngine.dir/flags.make
+CMakeFiles/MyGameEngine.dir/src/shapes/rectangle.cpp.obj: CMakeFiles/MyGameEngine.dir/includes_CXX.rsp
+CMakeFiles/MyGameEngine.dir/src/shapes/rectangle.cpp.obj: C:/Users/peder/OneDrive\ -\ Aarhus\ universitet/Projects/GameEngine/GameEngine/src/shapes/rectangle.cpp
+CMakeFiles/MyGameEngine.dir/src/shapes/rectangle.cpp.obj: CMakeFiles/MyGameEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/MyGameEngine.dir/src/shapes/rectangle.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyGameEngine.dir/src/shapes/rectangle.cpp.obj -MF CMakeFiles\MyGameEngine.dir\src\shapes\rectangle.cpp.obj.d -o CMakeFiles\MyGameEngine.dir\src\shapes\rectangle.cpp.obj -c "C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\src\shapes\rectangle.cpp"
+
+CMakeFiles/MyGameEngine.dir/src/shapes/rectangle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyGameEngine.dir/src/shapes/rectangle.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\src\shapes\rectangle.cpp" > CMakeFiles\MyGameEngine.dir\src\shapes\rectangle.cpp.i
+
+CMakeFiles/MyGameEngine.dir/src/shapes/rectangle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyGameEngine.dir/src/shapes/rectangle.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\src\shapes\rectangle.cpp" -o CMakeFiles\MyGameEngine.dir\src\shapes\rectangle.cpp.s
+
+CMakeFiles/MyGameEngine.dir/src/shapes/shape.cpp.obj: CMakeFiles/MyGameEngine.dir/flags.make
+CMakeFiles/MyGameEngine.dir/src/shapes/shape.cpp.obj: CMakeFiles/MyGameEngine.dir/includes_CXX.rsp
+CMakeFiles/MyGameEngine.dir/src/shapes/shape.cpp.obj: C:/Users/peder/OneDrive\ -\ Aarhus\ universitet/Projects/GameEngine/GameEngine/src/shapes/shape.cpp
+CMakeFiles/MyGameEngine.dir/src/shapes/shape.cpp.obj: CMakeFiles/MyGameEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/MyGameEngine.dir/src/shapes/shape.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyGameEngine.dir/src/shapes/shape.cpp.obj -MF CMakeFiles\MyGameEngine.dir\src\shapes\shape.cpp.obj.d -o CMakeFiles\MyGameEngine.dir\src\shapes\shape.cpp.obj -c "C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\src\shapes\shape.cpp"
+
+CMakeFiles/MyGameEngine.dir/src/shapes/shape.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyGameEngine.dir/src/shapes/shape.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\src\shapes\shape.cpp" > CMakeFiles\MyGameEngine.dir\src\shapes\shape.cpp.i
+
+CMakeFiles/MyGameEngine.dir/src/shapes/shape.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyGameEngine.dir/src/shapes/shape.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\src\shapes\shape.cpp" -o CMakeFiles\MyGameEngine.dir\src\shapes\shape.cpp.s
+
+CMakeFiles/MyGameEngine.dir/src/shapes/star.cpp.obj: CMakeFiles/MyGameEngine.dir/flags.make
+CMakeFiles/MyGameEngine.dir/src/shapes/star.cpp.obj: CMakeFiles/MyGameEngine.dir/includes_CXX.rsp
+CMakeFiles/MyGameEngine.dir/src/shapes/star.cpp.obj: C:/Users/peder/OneDrive\ -\ Aarhus\ universitet/Projects/GameEngine/GameEngine/src/shapes/star.cpp
+CMakeFiles/MyGameEngine.dir/src/shapes/star.cpp.obj: CMakeFiles/MyGameEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/MyGameEngine.dir/src/shapes/star.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyGameEngine.dir/src/shapes/star.cpp.obj -MF CMakeFiles\MyGameEngine.dir\src\shapes\star.cpp.obj.d -o CMakeFiles\MyGameEngine.dir\src\shapes\star.cpp.obj -c "C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\src\shapes\star.cpp"
+
+CMakeFiles/MyGameEngine.dir/src/shapes/star.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyGameEngine.dir/src/shapes/star.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\src\shapes\star.cpp" > CMakeFiles\MyGameEngine.dir\src\shapes\star.cpp.i
+
+CMakeFiles/MyGameEngine.dir/src/shapes/star.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyGameEngine.dir/src/shapes/star.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\src\shapes\star.cpp" -o CMakeFiles\MyGameEngine.dir\src\shapes\star.cpp.s
+
+CMakeFiles/MyGameEngine.dir/src/shapes/triangle.cpp.obj: CMakeFiles/MyGameEngine.dir/flags.make
+CMakeFiles/MyGameEngine.dir/src/shapes/triangle.cpp.obj: CMakeFiles/MyGameEngine.dir/includes_CXX.rsp
+CMakeFiles/MyGameEngine.dir/src/shapes/triangle.cpp.obj: C:/Users/peder/OneDrive\ -\ Aarhus\ universitet/Projects/GameEngine/GameEngine/src/shapes/triangle.cpp
+CMakeFiles/MyGameEngine.dir/src/shapes/triangle.cpp.obj: CMakeFiles/MyGameEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/MyGameEngine.dir/src/shapes/triangle.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyGameEngine.dir/src/shapes/triangle.cpp.obj -MF CMakeFiles\MyGameEngine.dir\src\shapes\triangle.cpp.obj.d -o CMakeFiles\MyGameEngine.dir\src\shapes\triangle.cpp.obj -c "C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\src\shapes\triangle.cpp"
+
+CMakeFiles/MyGameEngine.dir/src/shapes/triangle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyGameEngine.dir/src/shapes/triangle.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\src\shapes\triangle.cpp" > CMakeFiles\MyGameEngine.dir\src\shapes\triangle.cpp.i
+
+CMakeFiles/MyGameEngine.dir/src/shapes/triangle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyGameEngine.dir/src/shapes/triangle.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\src\shapes\triangle.cpp" -o CMakeFiles\MyGameEngine.dir\src\shapes\triangle.cpp.s
 
 # Object files for target MyGameEngine
 MyGameEngine_OBJECTS = \
 "CMakeFiles/MyGameEngine.dir/src/CoreEngine.cpp.obj" \
 "CMakeFiles/MyGameEngine.dir/src/background.cpp.obj" \
-"CMakeFiles/MyGameEngine.dir/src/circle.cpp.obj" \
+"CMakeFiles/MyGameEngine.dir/src/input_handler.cpp.obj" \
 "CMakeFiles/MyGameEngine.dir/src/main.cpp.obj" \
-"CMakeFiles/MyGameEngine.dir/src/render_queue.cpp.obj" \
-"CMakeFiles/MyGameEngine.dir/src/renderer.cpp.obj" \
-"CMakeFiles/MyGameEngine.dir/src/shader.cpp.obj" \
-"CMakeFiles/MyGameEngine.dir/src/shape.cpp.obj"
+"CMakeFiles/MyGameEngine.dir/src/rendering/render_queue.cpp.obj" \
+"CMakeFiles/MyGameEngine.dir/src/rendering/renderer.cpp.obj" \
+"CMakeFiles/MyGameEngine.dir/src/rendering/shader.cpp.obj" \
+"CMakeFiles/MyGameEngine.dir/src/shapes/circle.cpp.obj" \
+"CMakeFiles/MyGameEngine.dir/src/shapes/ellipse.cpp.obj" \
+"CMakeFiles/MyGameEngine.dir/src/shapes/line.cpp.obj" \
+"CMakeFiles/MyGameEngine.dir/src/shapes/rectangle.cpp.obj" \
+"CMakeFiles/MyGameEngine.dir/src/shapes/shape.cpp.obj" \
+"CMakeFiles/MyGameEngine.dir/src/shapes/star.cpp.obj" \
+"CMakeFiles/MyGameEngine.dir/src/shapes/triangle.cpp.obj"
 
 # External object files for target MyGameEngine
 MyGameEngine_EXTERNAL_OBJECTS =
 
 MyGameEngine/MyGameEngine.exe: CMakeFiles/MyGameEngine.dir/src/CoreEngine.cpp.obj
 MyGameEngine/MyGameEngine.exe: CMakeFiles/MyGameEngine.dir/src/background.cpp.obj
-MyGameEngine/MyGameEngine.exe: CMakeFiles/MyGameEngine.dir/src/circle.cpp.obj
+MyGameEngine/MyGameEngine.exe: CMakeFiles/MyGameEngine.dir/src/input_handler.cpp.obj
 MyGameEngine/MyGameEngine.exe: CMakeFiles/MyGameEngine.dir/src/main.cpp.obj
-MyGameEngine/MyGameEngine.exe: CMakeFiles/MyGameEngine.dir/src/render_queue.cpp.obj
-MyGameEngine/MyGameEngine.exe: CMakeFiles/MyGameEngine.dir/src/renderer.cpp.obj
-MyGameEngine/MyGameEngine.exe: CMakeFiles/MyGameEngine.dir/src/shader.cpp.obj
-MyGameEngine/MyGameEngine.exe: CMakeFiles/MyGameEngine.dir/src/shape.cpp.obj
+MyGameEngine/MyGameEngine.exe: CMakeFiles/MyGameEngine.dir/src/rendering/render_queue.cpp.obj
+MyGameEngine/MyGameEngine.exe: CMakeFiles/MyGameEngine.dir/src/rendering/renderer.cpp.obj
+MyGameEngine/MyGameEngine.exe: CMakeFiles/MyGameEngine.dir/src/rendering/shader.cpp.obj
+MyGameEngine/MyGameEngine.exe: CMakeFiles/MyGameEngine.dir/src/shapes/circle.cpp.obj
+MyGameEngine/MyGameEngine.exe: CMakeFiles/MyGameEngine.dir/src/shapes/ellipse.cpp.obj
+MyGameEngine/MyGameEngine.exe: CMakeFiles/MyGameEngine.dir/src/shapes/line.cpp.obj
+MyGameEngine/MyGameEngine.exe: CMakeFiles/MyGameEngine.dir/src/shapes/rectangle.cpp.obj
+MyGameEngine/MyGameEngine.exe: CMakeFiles/MyGameEngine.dir/src/shapes/shape.cpp.obj
+MyGameEngine/MyGameEngine.exe: CMakeFiles/MyGameEngine.dir/src/shapes/star.cpp.obj
+MyGameEngine/MyGameEngine.exe: CMakeFiles/MyGameEngine.dir/src/shapes/triangle.cpp.obj
 MyGameEngine/MyGameEngine.exe: CMakeFiles/MyGameEngine.dir/build.make
 MyGameEngine/MyGameEngine.exe: external/GLFW/src/libglfw3.a
 MyGameEngine/MyGameEngine.exe: lib/libglew32d.a
 MyGameEngine/MyGameEngine.exe: CMakeFiles/MyGameEngine.dir/linkLibs.rsp
 MyGameEngine/MyGameEngine.exe: CMakeFiles/MyGameEngine.dir/objects1.rsp
 MyGameEngine/MyGameEngine.exe: CMakeFiles/MyGameEngine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable MyGameEngine\MyGameEngine.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\peder\OneDrive - Aarhus universitet\Projects\GameEngine\GameEngine\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable MyGameEngine\MyGameEngine.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\MyGameEngine.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

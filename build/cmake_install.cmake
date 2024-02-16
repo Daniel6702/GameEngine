@@ -41,6 +41,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/GLFW/cmake_install.cmake")
   include("C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/GLEW/build/cmake/cmake_install.cmake")
+  include("C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL/cmake_install.cmake")
 
 endif()
 

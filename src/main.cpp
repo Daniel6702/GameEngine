@@ -3,11 +3,10 @@
 #include <iostream>
 
 int main() {
-    CoreEngine engine(1200, 600, "Game");
+    CoreEngine engine("Game");
     MyGame game;
 
-    if (engine.init()) {
-        engine.setGame(&game);
+    if (engine.init(&game)) {
         engine.run();
     }
 

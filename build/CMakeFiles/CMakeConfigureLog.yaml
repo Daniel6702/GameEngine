@@ -61,8 +61,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-8vnm5p"
-      binary: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-8vnm5p"
+      source: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-a76i6f"
+      binary: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-a76i6f"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -71,12 +71,12 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-8vnm5p
+        Change Dir: C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-a76i6f
         
-        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_7cbe0/fast && C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_7cbe0.dir\\build.make CMakeFiles/cmTC_7cbe0.dir/build
-        mingw32-make[1]: Entering directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-8vnm5p'
-        Building C object CMakeFiles/cmTC_7cbe0.dir/CMakeCCompilerABI.c.obj
-        C:\\msys64\\ucrt64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_7cbe0.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_207c8/fast && C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_207c8.dir\\build.make CMakeFiles/cmTC_207c8.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-a76i6f'
+        Building C object CMakeFiles/cmTC_207c8.dir/CMakeCCompilerABI.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_207c8.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
         Using built-in specs.
         COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\gcc.exe
         Target: x86_64-w64-mingw32
@@ -84,8 +84,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.1.0 (Rev6, Built by MSYS2 project) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_7cbe0.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_7cbe0.dir\\'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_7cbe0.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\peder\\AppData\\Local\\Temp\\cci0pptt.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_207c8.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_207c8.dir\\'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_207c8.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\peder\\AppData\\Local\\Temp\\ccXD3hol.s
         GNU C17 (Rev6, Built by MSYS2 project) version 13.1.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.2.0-p4, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -105,17 +105,17 @@ events:
          C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed
         End of search list.
         Compiler executable checksum: 35960f8084e9f583e29252528637e076
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_7cbe0.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_7cbe0.dir\\'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_7cbe0.dir\\CMakeCCompilerABI.c.obj C:\\Users\\peder\\AppData\\Local\\Temp\\cci0pptt.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_207c8.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_207c8.dir\\'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_207c8.dir\\CMakeCCompilerABI.c.obj C:\\Users\\peder\\AppData\\Local\\Temp\\ccXD3hol.s
         GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40
         COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_7cbe0.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_7cbe0.dir\\CMakeCCompilerABI.c.'
-        Linking C executable cmTC_7cbe0.exe
-        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_7cbe0.dir\\link.txt --verbose=1
-        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_7cbe0.dir/objects.a
-        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_7cbe0.dir/objects.a @CMakeFiles\\cmTC_7cbe0.dir\\objects1.rsp
-        C:\\msys64\\ucrt64\\bin\\gcc.exe  -v -Wl,--whole-archive CMakeFiles\\cmTC_7cbe0.dir/objects.a -Wl,--no-whole-archive -o cmTC_7cbe0.exe -Wl,--out-implib,libcmTC_7cbe0.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_207c8.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_207c8.dir\\CMakeCCompilerABI.c.'
+        Linking C executable cmTC_207c8.exe
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_207c8.dir\\link.txt --verbose=1
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_207c8.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_207c8.dir/objects.a @CMakeFiles\\cmTC_207c8.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe  -v -Wl,--whole-archive CMakeFiles\\cmTC_207c8.dir/objects.a -Wl,--no-whole-archive -o cmTC_207c8.exe -Wl,--out-implib,libcmTC_207c8.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
         Using built-in specs.
         COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\gcc.exe
         COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe
@@ -126,10 +126,10 @@ events:
         gcc version 13.1.0 (Rev6, Built by MSYS2 project) 
         COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7cbe0.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_7cbe0.'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\peder\\AppData\\Local\\Temp\\ccW82cdA.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_7cbe0.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --whole-archive CMakeFiles\\cmTC_7cbe0.dir/objects.a --no-whole-archive --out-implib libcmTC_7cbe0.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7cbe0.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_7cbe0.'
-        mingw32-make[1]: Leaving directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-8vnm5p'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_207c8.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_207c8.'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\peder\\AppData\\Local\\Temp\\ccNeEcuw.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_207c8.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --whole-archive CMakeFiles\\cmTC_207c8.dir/objects.a --no-whole-archive --out-implib libcmTC_207c8.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_207c8.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_207c8.'
+        mingw32-make[1]: Leaving directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-a76i6f'
         
       exitCode: 0
   -
@@ -161,12 +161,12 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-8vnm5p]
+        ignore line: [Change Dir: C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-a76i6f]
         ignore line: []
-        ignore line: [Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_7cbe0/fast && C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_7cbe0.dir\\build.make CMakeFiles/cmTC_7cbe0.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-8vnm5p']
-        ignore line: [Building C object CMakeFiles/cmTC_7cbe0.dir/CMakeCCompilerABI.c.obj]
-        ignore line: [C:\\msys64\\ucrt64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_7cbe0.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"]
+        ignore line: [Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_207c8/fast && C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_207c8.dir\\build.make CMakeFiles/cmTC_207c8.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-a76i6f']
+        ignore line: [Building C object CMakeFiles/cmTC_207c8.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [C:\\msys64\\ucrt64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_207c8.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\gcc.exe]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -174,8 +174,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 13.1.0 (Rev6  Built by MSYS2 project) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_7cbe0.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_7cbe0.dir\\']
-        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_7cbe0.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\peder\\AppData\\Local\\Temp\\cci0pptt.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_207c8.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_207c8.dir\\']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_207c8.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\peder\\AppData\\Local\\Temp\\ccXD3hol.s]
         ignore line: [GNU C17 (Rev6  Built by MSYS2 project) version 13.1.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 13.1.0  GMP version 6.2.1  MPFR version 4.2.0-p4  MPC version 1.3.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -195,8 +195,8 @@ events:
         ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 35960f8084e9f583e29252528637e076]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_7cbe0.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_7cbe0.dir\\']
-        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_7cbe0.dir\\CMakeCCompilerABI.c.obj C:\\Users\\peder\\AppData\\Local\\Temp\\cci0pptt.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_207c8.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_207c8.dir\\']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_207c8.dir\\CMakeCCompilerABI.c.obj C:\\Users\\peder\\AppData\\Local\\Temp\\ccXD3hol.s]
         ignore line: [GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40]
         ignore line: [COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/]
@@ -207,12 +207,12 @@ events:
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_7cbe0.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_7cbe0.dir\\CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_7cbe0.exe]
-        ignore line: ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_7cbe0.dir\\link.txt --verbose=1]
-        ignore line: ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_7cbe0.dir/objects.a]
-        ignore line: [C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_7cbe0.dir/objects.a @CMakeFiles\\cmTC_7cbe0.dir\\objects1.rsp]
-        ignore line: [C:\\msys64\\ucrt64\\bin\\gcc.exe  -v -Wl --whole-archive CMakeFiles\\cmTC_7cbe0.dir/objects.a -Wl --no-whole-archive -o cmTC_7cbe0.exe -Wl --out-implib libcmTC_7cbe0.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_207c8.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_207c8.dir\\CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_207c8.exe]
+        ignore line: ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_207c8.dir\\link.txt --verbose=1]
+        ignore line: ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_207c8.dir/objects.a]
+        ignore line: [C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_207c8.dir/objects.a @CMakeFiles\\cmTC_207c8.dir\\objects1.rsp]
+        ignore line: [C:\\msys64\\ucrt64\\bin\\gcc.exe  -v -Wl --whole-archive CMakeFiles\\cmTC_207c8.dir/objects.a -Wl --no-whole-archive -o cmTC_207c8.exe -Wl --out-implib libcmTC_207c8.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\gcc.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe]
@@ -230,13 +230,13 @@ events:
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7cbe0.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_7cbe0.']
-        link line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\peder\\AppData\\Local\\Temp\\ccW82cdA.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_7cbe0.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --whole-archive CMakeFiles\\cmTC_7cbe0.dir/objects.a --no-whole-archive --out-implib libcmTC_7cbe0.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_207c8.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_207c8.']
+        link line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\peder\\AppData\\Local\\Temp\\ccNeEcuw.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_207c8.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --whole-archive CMakeFiles\\cmTC_207c8.dir/objects.a --no-whole-archive --out-implib libcmTC_207c8.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\peder\\AppData\\Local\\Temp\\ccW82cdA.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\peder\\AppData\\Local\\Temp\\ccNeEcuw.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
@@ -260,7 +260,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_7cbe0.exe] ==> ignore
+          arg [cmTC_207c8.exe] ==> ignore
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/crt2.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/crt2.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o]
           arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0]
@@ -270,10 +270,10 @@ events:
           arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib]
           arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..]
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_7cbe0.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_207c8.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_7cbe0.dll.a] ==> ignore
+          arg [libcmTC_207c8.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -328,8 +328,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-81n0mf"
-      binary: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-81n0mf"
+      source: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-91v825"
+      binary: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-91v825"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -338,12 +338,12 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-81n0mf
+        Change Dir: C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-91v825
         
-        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_426aa/fast && C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_426aa.dir\\build.make CMakeFiles/cmTC_426aa.dir/build
-        mingw32-make[1]: Entering directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-81n0mf'
-        Building CXX object CMakeFiles/cmTC_426aa.dir/CMakeCXXCompilerABI.cpp.obj
-        C:\\msys64\\ucrt64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_426aa.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_4e48e/fast && C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_4e48e.dir\\build.make CMakeFiles/cmTC_4e48e.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-91v825'
+        Building CXX object CMakeFiles/cmTC_4e48e.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\msys64\\ucrt64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_4e48e.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
         Using built-in specs.
         COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\g++.exe
         Target: x86_64-w64-mingw32
@@ -351,8 +351,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.1.0 (Rev6, Built by MSYS2 project) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_426aa.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_426aa.dir\\'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_426aa.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\peder\\AppData\\Local\\Temp\\cc0EjvHT.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_4e48e.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_4e48e.dir\\'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_4e48e.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\peder\\AppData\\Local\\Temp\\ccx6N1vR.s
         GNU C++17 (Rev6, Built by MSYS2 project) version 13.1.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.2.0-p4, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -378,17 +378,17 @@ events:
          C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed
         End of search list.
         Compiler executable checksum: 7699623fe6e7342c3ce5b00e86cdf2ba
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_426aa.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_426aa.dir\\'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_426aa.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\peder\\AppData\\Local\\Temp\\cc0EjvHT.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_4e48e.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_4e48e.dir\\'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_4e48e.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\peder\\AppData\\Local\\Temp\\ccx6N1vR.s
         GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40
         COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_426aa.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_426aa.dir\\CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_426aa.exe
-        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_426aa.dir\\link.txt --verbose=1
-        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_426aa.dir/objects.a
-        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_426aa.dir/objects.a @CMakeFiles\\cmTC_426aa.dir\\objects1.rsp
-        C:\\msys64\\ucrt64\\bin\\g++.exe  -v -Wl,--whole-archive CMakeFiles\\cmTC_426aa.dir/objects.a -Wl,--no-whole-archive -o cmTC_426aa.exe -Wl,--out-implib,libcmTC_426aa.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_4e48e.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_4e48e.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_4e48e.exe
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_4e48e.dir\\link.txt --verbose=1
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_4e48e.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_4e48e.dir/objects.a @CMakeFiles\\cmTC_4e48e.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\g++.exe  -v -Wl,--whole-archive CMakeFiles\\cmTC_4e48e.dir/objects.a -Wl,--no-whole-archive -o cmTC_4e48e.exe -Wl,--out-implib,libcmTC_4e48e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
         Using built-in specs.
         COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\g++.exe
         COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe
@@ -399,10 +399,10 @@ events:
         gcc version 13.1.0 (Rev6, Built by MSYS2 project) 
         COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_426aa.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_426aa.'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\peder\\AppData\\Local\\Temp\\ccUHiwp1.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_426aa.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --whole-archive CMakeFiles\\cmTC_426aa.dir/objects.a --no-whole-archive --out-implib libcmTC_426aa.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_426aa.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_426aa.'
-        mingw32-make[1]: Leaving directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-81n0mf'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4e48e.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_4e48e.'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\peder\\AppData\\Local\\Temp\\cclYN270.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_4e48e.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --whole-archive CMakeFiles\\cmTC_4e48e.dir/objects.a --no-whole-archive --out-implib libcmTC_4e48e.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4e48e.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_4e48e.'
+        mingw32-make[1]: Leaving directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-91v825'
         
       exitCode: 0
   -
@@ -440,12 +440,12 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-81n0mf]
+        ignore line: [Change Dir: C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-91v825]
         ignore line: []
-        ignore line: [Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_426aa/fast && C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_426aa.dir\\build.make CMakeFiles/cmTC_426aa.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-81n0mf']
-        ignore line: [Building CXX object CMakeFiles/cmTC_426aa.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [C:\\msys64\\ucrt64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_426aa.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_4e48e/fast && C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_4e48e.dir\\build.make CMakeFiles/cmTC_4e48e.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-91v825']
+        ignore line: [Building CXX object CMakeFiles/cmTC_4e48e.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:\\msys64\\ucrt64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_4e48e.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\g++.exe]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -453,8 +453,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 13.1.0 (Rev6  Built by MSYS2 project) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_426aa.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_426aa.dir\\']
-        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_426aa.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\peder\\AppData\\Local\\Temp\\cc0EjvHT.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_4e48e.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_4e48e.dir\\']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_4e48e.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\peder\\AppData\\Local\\Temp\\ccx6N1vR.s]
         ignore line: [GNU C++17 (Rev6  Built by MSYS2 project) version 13.1.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 13.1.0  GMP version 6.2.1  MPFR version 4.2.0-p4  MPC version 1.3.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -480,8 +480,8 @@ events:
         ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 7699623fe6e7342c3ce5b00e86cdf2ba]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_426aa.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_426aa.dir\\']
-        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_426aa.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\peder\\AppData\\Local\\Temp\\cc0EjvHT.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_4e48e.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_4e48e.dir\\']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_4e48e.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\peder\\AppData\\Local\\Temp\\ccx6N1vR.s]
         ignore line: [GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40]
         ignore line: [COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/]
@@ -492,12 +492,12 @@ events:
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_426aa.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_426aa.dir\\CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_426aa.exe]
-        ignore line: ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_426aa.dir\\link.txt --verbose=1]
-        ignore line: ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_426aa.dir/objects.a]
-        ignore line: [C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_426aa.dir/objects.a @CMakeFiles\\cmTC_426aa.dir\\objects1.rsp]
-        ignore line: [C:\\msys64\\ucrt64\\bin\\g++.exe  -v -Wl --whole-archive CMakeFiles\\cmTC_426aa.dir/objects.a -Wl --no-whole-archive -o cmTC_426aa.exe -Wl --out-implib libcmTC_426aa.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_4e48e.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_4e48e.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_4e48e.exe]
+        ignore line: ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_4e48e.dir\\link.txt --verbose=1]
+        ignore line: ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_4e48e.dir/objects.a]
+        ignore line: [C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_4e48e.dir/objects.a @CMakeFiles\\cmTC_4e48e.dir\\objects1.rsp]
+        ignore line: [C:\\msys64\\ucrt64\\bin\\g++.exe  -v -Wl --whole-archive CMakeFiles\\cmTC_4e48e.dir/objects.a -Wl --no-whole-archive -o cmTC_4e48e.exe -Wl --out-implib libcmTC_4e48e.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\g++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe]
@@ -515,13 +515,13 @@ events:
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_426aa.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_426aa.']
-        link line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\peder\\AppData\\Local\\Temp\\ccUHiwp1.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_426aa.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --whole-archive CMakeFiles\\cmTC_426aa.dir/objects.a --no-whole-archive --out-implib libcmTC_426aa.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4e48e.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_4e48e.']
+        link line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\peder\\AppData\\Local\\Temp\\cclYN270.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_4e48e.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --whole-archive CMakeFiles\\cmTC_4e48e.dir/objects.a --no-whole-archive --out-implib libcmTC_4e48e.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\peder\\AppData\\Local\\Temp\\ccUHiwp1.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\peder\\AppData\\Local\\Temp\\cclYN270.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -545,7 +545,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_426aa.exe] ==> ignore
+          arg [cmTC_4e48e.exe] ==> ignore
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/crt2.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/crt2.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o]
           arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0]
@@ -555,10 +555,10 @@ events:
           arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib]
           arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..]
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_426aa.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_4e48e.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_426aa.dll.a] ==> ignore
+          arg [libcmTC_4e48e.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -614,8 +614,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-va5o8m"
-      binary: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-va5o8m"
+      source: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-6ea3z7"
+      binary: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-6ea3z7"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -625,18 +625,18 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-va5o8m
+        Change Dir: C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-6ea3z7
         
-        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_c9342/fast && C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_c9342.dir\\build.make CMakeFiles/cmTC_c9342.dir/build
-        mingw32-make[1]: Entering directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-va5o8m'
-        Building C object CMakeFiles/cmTC_c9342.dir/src.c.obj
-        C:\\msys64\\ucrt64\\bin\\gcc.exe -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles\\cmTC_c9342.dir\\src.c.obj -c "C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-va5o8m\\src.c"
-        Linking C executable cmTC_c9342.exe
-        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_c9342.dir\\link.txt --verbose=1
-        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_c9342.dir/objects.a
-        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_c9342.dir/objects.a @CMakeFiles\\cmTC_c9342.dir\\objects1.rsp
-        C:\\msys64\\ucrt64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_c9342.dir/objects.a -Wl,--no-whole-archive -o cmTC_c9342.exe -Wl,--out-implib,libcmTC_c9342.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_c9342.dir\\linkLibs.rsp
-        mingw32-make[1]: Leaving directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-va5o8m'
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_fc6ea/fast && C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_fc6ea.dir\\build.make CMakeFiles/cmTC_fc6ea.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-6ea3z7'
+        Building C object CMakeFiles/cmTC_fc6ea.dir/src.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles\\cmTC_fc6ea.dir\\src.c.obj -c "C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6ea3z7\\src.c"
+        Linking C executable cmTC_fc6ea.exe
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_fc6ea.dir\\link.txt --verbose=1
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_fc6ea.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_fc6ea.dir/objects.a @CMakeFiles\\cmTC_fc6ea.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_fc6ea.dir/objects.a -Wl,--no-whole-archive -o cmTC_fc6ea.exe -Wl,--out-implib,libcmTC_fc6ea.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_fc6ea.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-6ea3z7'
         
       exitCode: 0
   -
@@ -647,8 +647,8 @@ events:
     checks:
       - "Looking for dinput.h"
     directories:
-      source: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-ax8lvr"
-      binary: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-ax8lvr"
+      source: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-33ut7w"
+      binary: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-33ut7w"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -658,18 +658,18 @@ events:
       variable: "DINPUT_H_FOUND"
       cached: true
       stdout: |
-        Change Dir: C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-ax8lvr
+        Change Dir: C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-33ut7w
         
-        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_e6a9e/fast && C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_e6a9e.dir\\build.make CMakeFiles/cmTC_e6a9e.dir/build
-        mingw32-make[1]: Entering directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-ax8lvr'
-        Building C object CMakeFiles/cmTC_e6a9e.dir/CheckIncludeFile.c.obj
-        C:\\msys64\\ucrt64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_e6a9e.dir\\CheckIncludeFile.c.obj -c "C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ax8lvr\\CheckIncludeFile.c"
-        Linking C executable cmTC_e6a9e.exe
-        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_e6a9e.dir\\link.txt --verbose=1
-        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_e6a9e.dir/objects.a
-        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_e6a9e.dir/objects.a @CMakeFiles\\cmTC_e6a9e.dir\\objects1.rsp
-        C:\\msys64\\ucrt64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_e6a9e.dir/objects.a -Wl,--no-whole-archive -o cmTC_e6a9e.exe -Wl,--out-implib,libcmTC_e6a9e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_e6a9e.dir\\linkLibs.rsp
-        mingw32-make[1]: Leaving directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-ax8lvr'
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_699b1/fast && C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_699b1.dir\\build.make CMakeFiles/cmTC_699b1.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-33ut7w'
+        Building C object CMakeFiles/cmTC_699b1.dir/CheckIncludeFile.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_699b1.dir\\CheckIncludeFile.c.obj -c "C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-33ut7w\\CheckIncludeFile.c"
+        Linking C executable cmTC_699b1.exe
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_699b1.dir\\link.txt --verbose=1
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_699b1.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_699b1.dir/objects.a @CMakeFiles\\cmTC_699b1.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_699b1.dir/objects.a -Wl,--no-whole-archive -o cmTC_699b1.exe -Wl,--out-implib,libcmTC_699b1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_699b1.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-33ut7w'
         
       exitCode: 0
   -
@@ -680,8 +680,8 @@ events:
     checks:
       - "Looking for xinput.h"
     directories:
-      source: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-moa12j"
-      binary: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-moa12j"
+      source: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-bxigzy"
+      binary: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-bxigzy"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -691,18 +691,912 @@ events:
       variable: "XINPUT_H_FOUND"
       cached: true
       stdout: |
-        Change Dir: C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-moa12j
+        Change Dir: C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-bxigzy
         
-        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_53734/fast && C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_53734.dir\\build.make CMakeFiles/cmTC_53734.dir/build
-        mingw32-make[1]: Entering directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-moa12j'
-        Building C object CMakeFiles/cmTC_53734.dir/CheckIncludeFile.c.obj
-        C:\\msys64\\ucrt64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_53734.dir\\CheckIncludeFile.c.obj -c "C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-moa12j\\CheckIncludeFile.c"
-        Linking C executable cmTC_53734.exe
-        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_53734.dir\\link.txt --verbose=1
-        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_53734.dir/objects.a
-        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_53734.dir/objects.a @CMakeFiles\\cmTC_53734.dir\\objects1.rsp
-        C:\\msys64\\ucrt64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_53734.dir/objects.a -Wl,--no-whole-archive -o cmTC_53734.exe -Wl,--out-implib,libcmTC_53734.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_53734.dir\\linkLibs.rsp
-        mingw32-make[1]: Leaving directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-moa12j'
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_3ebf5/fast && C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_3ebf5.dir\\build.make CMakeFiles/cmTC_3ebf5.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-bxigzy'
+        Building C object CMakeFiles/cmTC_3ebf5.dir/CheckIncludeFile.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_3ebf5.dir\\CheckIncludeFile.c.obj -c "C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bxigzy\\CheckIncludeFile.c"
+        Linking C executable cmTC_3ebf5.exe
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_3ebf5.dir\\link.txt --verbose=1
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_3ebf5.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_3ebf5.dir/objects.a @CMakeFiles\\cmTC_3ebf5.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_3ebf5.dir/objects.a -Wl,--no-whole-archive -o cmTC_3ebf5.exe -Wl,--out-implib,libcmTC_3ebf5.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_3ebf5.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-bxigzy'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckCXXSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "external/AL/CMakeLists.txt:194 (check_cxx_source_compiles)"
+    checks:
+      - "Performing Test HAVE_STDC_FORMAT_MACROS"
+    directories:
+      source: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-zj5b6f"
+      binary: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-zj5b6f"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wpedantic"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/cmake"
+    buildResult:
+      variable: "HAVE_STDC_FORMAT_MACROS"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-zj5b6f
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_e9362/fast && C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_e9362.dir\\build.make CMakeFiles/cmTC_e9362.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-zj5b6f'
+        Building CXX object CMakeFiles/cmTC_e9362.dir/src.cxx.obj
+        C:\\msys64\\ucrt64\\bin\\g++.exe -DHAVE_STDC_FORMAT_MACROS  -Wall -Wextra -Wpedantic  -std=gnu++17 -o CMakeFiles\\cmTC_e9362.dir\\src.cxx.obj -c "C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zj5b6f\\src.cxx"
+        Linking CXX executable cmTC_e9362.exe
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_e9362.dir\\link.txt --verbose=1
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_e9362.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_e9362.dir/objects.a @CMakeFiles\\cmTC_e9362.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\g++.exe  -Wall -Wextra -Wpedantic  -Wl,--whole-archive CMakeFiles\\cmTC_e9362.dir/objects.a -Wl,--no-whole-archive -o cmTC_e9362.exe -Wl,--out-implib,libcmTC_e9362.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_e9362.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-zj5b6f'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckCXXSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "external/AL/CMakeLists.txt:223 (check_cxx_source_compiles)"
+    checks:
+      - "Performing Test HAVE___RESTRICT"
+    directories:
+      source: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-y2i14f"
+      binary: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-y2i14f"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wpedantic"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/cmake"
+    buildResult:
+      variable: "HAVE___RESTRICT"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-y2i14f
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_b9de2/fast && C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_b9de2.dir\\build.make CMakeFiles/cmTC_b9de2.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-y2i14f'
+        Building CXX object CMakeFiles/cmTC_b9de2.dir/src.cxx.obj
+        C:\\msys64\\ucrt64\\bin\\g++.exe -DHAVE___RESTRICT  -Wall -Wextra -Wpedantic  -std=gnu++17 -o CMakeFiles\\cmTC_b9de2.dir\\src.cxx.obj -c "C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y2i14f\\src.cxx"
+        Linking CXX executable cmTC_b9de2.exe
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_b9de2.dir\\link.txt --verbose=1
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_b9de2.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_b9de2.dir/objects.a @CMakeFiles\\cmTC_b9de2.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\g++.exe  -Wall -Wextra -Wpedantic  -Wl,--whole-archive CMakeFiles\\cmTC_b9de2.dir/objects.a -Wl,--no-whole-archive -o cmTC_b9de2.exe -Wl,--out-implib,libcmTC_b9de2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_b9de2.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-y2i14f'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckCXXSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "external/AL/CMakeLists.txt:234 (check_cxx_source_compiles)"
+    checks:
+      - "Performing Test HAVE_LIBATOMIC"
+    directories:
+      source: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-0o13do"
+      binary: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-0o13do"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wpedantic"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/cmake"
+    buildResult:
+      variable: "HAVE_LIBATOMIC"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-0o13do
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_5c290/fast && C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_5c290.dir\\build.make CMakeFiles/cmTC_5c290.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-0o13do'
+        Building CXX object CMakeFiles/cmTC_5c290.dir/src.cxx.obj
+        C:\\msys64\\ucrt64\\bin\\g++.exe -DHAVE_LIBATOMIC  -Wall -Wextra -Wpedantic  -std=gnu++17 -o CMakeFiles\\cmTC_5c290.dir\\src.cxx.obj -c "C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0o13do\\src.cxx"
+        Linking CXX executable cmTC_5c290.exe
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_5c290.dir\\link.txt --verbose=1
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_5c290.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_5c290.dir/objects.a @CMakeFiles\\cmTC_5c290.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\g++.exe  -Wall -Wextra -Wpedantic  -Wl,--whole-archive CMakeFiles\\cmTC_5c290.dir/objects.a -Wl,--no-whole-archive -o cmTC_5c290.exe -Wl,--out-implib,libcmTC_5c290.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_5c290.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-0o13do'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "external/AL/CMakeLists.txt:288 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_WNO_CXX20_ATTR_EXT"
+    directories:
+      source: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-d9et0k"
+      binary: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-d9et0k"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wpedantic"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/cmake"
+    buildResult:
+      variable: "HAVE_WNO_CXX20_ATTR_EXT"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-d9et0k
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_f0749/fast && C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_f0749.dir\\build.make CMakeFiles/cmTC_f0749.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-d9et0k'
+        Building CXX object CMakeFiles/cmTC_f0749.dir/src.cxx.obj
+        C:\\msys64\\ucrt64\\bin\\g++.exe -DHAVE_WNO_CXX20_ATTR_EXT  -Wall -Wextra -Wpedantic  -std=gnu++17   -Wno-c++20-attribute-extensions -o CMakeFiles\\cmTC_f0749.dir\\src.cxx.obj -c "C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d9et0k\\src.cxx"
+        Linking CXX executable cmTC_f0749.exe
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_f0749.dir\\link.txt --verbose=1
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_f0749.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_f0749.dir/objects.a @CMakeFiles\\cmTC_f0749.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\g++.exe  -Wall -Wextra -Wpedantic  -Wl,--whole-archive CMakeFiles\\cmTC_f0749.dir/objects.a -Wl,--no-whole-archive -o cmTC_f0749.exe -Wl,--out-implib,libcmTC_f0749.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_f0749.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-d9et0k'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckCCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "external/AL/CMakeLists.txt:310 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_FNO_MATH_ERRNO"
+    directories:
+      source: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-yh3j9k"
+      binary: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-yh3j9k"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/cmake"
+    buildResult:
+      variable: "HAVE_FNO_MATH_ERRNO"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-yh3j9k
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_3cd32/fast && C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_3cd32.dir\\build.make CMakeFiles/cmTC_3cd32.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-yh3j9k'
+        Building C object CMakeFiles/cmTC_3cd32.dir/src.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -DHAVE_FNO_MATH_ERRNO  -fno-math-errno -o CMakeFiles\\cmTC_3cd32.dir\\src.c.obj -c "C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yh3j9k\\src.c"
+        Linking C executable cmTC_3cd32.exe
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_3cd32.dir\\link.txt --verbose=1
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_3cd32.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_3cd32.dir/objects.a @CMakeFiles\\cmTC_3cd32.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_3cd32.dir/objects.a -Wl,--no-whole-archive -o cmTC_3cd32.exe -Wl,--out-implib,libcmTC_3cd32.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_3cd32.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-yh3j9k'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckCCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "external/AL/CMakeLists.txt:396 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_MSSE2_SWITCH"
+    directories:
+      source: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-ms3u2b"
+      binary: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-ms3u2b"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/cmake"
+    buildResult:
+      variable: "HAVE_MSSE2_SWITCH"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-ms3u2b
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_1dcb9/fast && C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_1dcb9.dir\\build.make CMakeFiles/cmTC_1dcb9.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-ms3u2b'
+        Building C object CMakeFiles/cmTC_1dcb9.dir/src.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -DHAVE_MSSE2_SWITCH  -Werror   -msse2 -o CMakeFiles\\cmTC_1dcb9.dir\\src.c.obj -c "C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ms3u2b\\src.c"
+        Linking C executable cmTC_1dcb9.exe
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_1dcb9.dir\\link.txt --verbose=1
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_1dcb9.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_1dcb9.dir/objects.a @CMakeFiles\\cmTC_1dcb9.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe   -Werror -Wl,--whole-archive CMakeFiles\\cmTC_1dcb9.dir/objects.a -Wl,--no-whole-archive -o cmTC_1dcb9.exe -Wl,--out-implib,libcmTC_1dcb9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_1dcb9.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-ms3u2b'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "external/AL/CMakeLists.txt:404 (check_include_file)"
+    checks:
+      - "Looking for xmmintrin.h"
+    directories:
+      source: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-i4yyl2"
+      binary: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-i4yyl2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/cmake"
+    buildResult:
+      variable: "HAVE_XMMINTRIN_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-i4yyl2
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_5b820/fast && C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_5b820.dir\\build.make CMakeFiles/cmTC_5b820.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-i4yyl2'
+        Building C object CMakeFiles/cmTC_5b820.dir/CheckIncludeFile.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_5b820.dir\\CheckIncludeFile.c.obj -c "C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4yyl2\\CheckIncludeFile.c"
+        Linking C executable cmTC_5b820.exe
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_5b820.dir\\link.txt --verbose=1
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_5b820.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_5b820.dir/objects.a @CMakeFiles\\cmTC_5b820.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_5b820.dir/objects.a -Wl,--no-whole-archive -o cmTC_5b820.exe -Wl,--out-implib,libcmTC_5b820.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_5b820.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-i4yyl2'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "external/AL/CMakeLists.txt:405 (check_include_file)"
+    checks:
+      - "Looking for emmintrin.h"
+    directories:
+      source: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-h85iiu"
+      binary: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-h85iiu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/cmake"
+    buildResult:
+      variable: "HAVE_EMMINTRIN_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-h85iiu
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_0f8f3/fast && C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_0f8f3.dir\\build.make CMakeFiles/cmTC_0f8f3.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-h85iiu'
+        Building C object CMakeFiles/cmTC_0f8f3.dir/CheckIncludeFile.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_0f8f3.dir\\CheckIncludeFile.c.obj -c "C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h85iiu\\CheckIncludeFile.c"
+        Linking C executable cmTC_0f8f3.exe
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_0f8f3.dir\\link.txt --verbose=1
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_0f8f3.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_0f8f3.dir/objects.a @CMakeFiles\\cmTC_0f8f3.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_0f8f3.dir/objects.a -Wl,--no-whole-archive -o cmTC_0f8f3.exe -Wl,--out-implib,libcmTC_0f8f3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_0f8f3.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-h85iiu'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "external/AL/CMakeLists.txt:406 (check_include_file)"
+    checks:
+      - "Looking for pmmintrin.h"
+    directories:
+      source: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-oqg7s4"
+      binary: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-oqg7s4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/cmake"
+    buildResult:
+      variable: "HAVE_PMMINTRIN_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-oqg7s4
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_cc155/fast && C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_cc155.dir\\build.make CMakeFiles/cmTC_cc155.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-oqg7s4'
+        Building C object CMakeFiles/cmTC_cc155.dir/CheckIncludeFile.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_cc155.dir\\CheckIncludeFile.c.obj -c "C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oqg7s4\\CheckIncludeFile.c"
+        Linking C executable cmTC_cc155.exe
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_cc155.dir\\link.txt --verbose=1
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_cc155.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_cc155.dir/objects.a @CMakeFiles\\cmTC_cc155.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_cc155.dir/objects.a -Wl,--no-whole-archive -o cmTC_cc155.exe -Wl,--out-implib,libcmTC_cc155.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_cc155.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-oqg7s4'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "external/AL/CMakeLists.txt:407 (check_include_file)"
+    checks:
+      - "Looking for smmintrin.h"
+    directories:
+      source: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-vjdvaa"
+      binary: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-vjdvaa"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/cmake"
+    buildResult:
+      variable: "HAVE_SMMINTRIN_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-vjdvaa
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_28109/fast && C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_28109.dir\\build.make CMakeFiles/cmTC_28109.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-vjdvaa'
+        Building C object CMakeFiles/cmTC_28109.dir/CheckIncludeFile.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_28109.dir\\CheckIncludeFile.c.obj -c "C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vjdvaa\\CheckIncludeFile.c"
+        Linking C executable cmTC_28109.exe
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_28109.dir\\link.txt --verbose=1
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_28109.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_28109.dir/objects.a @CMakeFiles\\cmTC_28109.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_28109.dir/objects.a -Wl,--no-whole-archive -o cmTC_28109.exe -Wl,--out-implib,libcmTC_28109.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_28109.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-vjdvaa'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "external/AL/CMakeLists.txt:408 (check_include_file)"
+    checks:
+      - "Looking for arm_neon.h"
+    directories:
+      source: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-1s7e1w"
+      binary: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-1s7e1w"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/cmake"
+    buildResult:
+      variable: "HAVE_ARM_NEON_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-1s7e1w
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_199a2/fast && C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_199a2.dir\\build.make CMakeFiles/cmTC_199a2.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-1s7e1w'
+        Building C object CMakeFiles/cmTC_199a2.dir/CheckIncludeFile.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_199a2.dir\\CheckIncludeFile.c.obj -c "C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1s7e1w\\CheckIncludeFile.c"
+        C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1s7e1w\\CheckIncludeFile.c:1:10: fatal error: arm_neon.h: No such file or directory
+            1 | #include <arm_neon.h>
+              |          ^~~~~~~~~~~~
+        compilation terminated.
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_199a2.dir\\build.make:77: CMakeFiles/cmTC_199a2.dir/CheckIncludeFile.c.obj] Error 1
+        mingw32-make[1]: Leaving directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-1s7e1w'
+        mingw32-make: *** [Makefile:126: cmTC_199a2/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "external/AL/CMakeLists.txt:508 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_SSE_INTRINSICS"
+    directories:
+      source: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-hlzarm"
+      binary: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-hlzarm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/cmake"
+    buildResult:
+      variable: "HAVE_SSE_INTRINSICS"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-hlzarm
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_74dd4/fast && C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_74dd4.dir\\build.make CMakeFiles/cmTC_74dd4.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-hlzarm'
+        Building C object CMakeFiles/cmTC_74dd4.dir/src.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -DHAVE_SSE_INTRINSICS   -o CMakeFiles\\cmTC_74dd4.dir\\src.c.obj -c "C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hlzarm\\src.c"
+        Linking C executable cmTC_74dd4.exe
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_74dd4.dir\\link.txt --verbose=1
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_74dd4.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_74dd4.dir/objects.a @CMakeFiles\\cmTC_74dd4.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_74dd4.dir/objects.a -Wl,--no-whole-archive -o cmTC_74dd4.exe -Wl,--out-implib,libcmTC_74dd4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_74dd4.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-hlzarm'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "external/AL/CMakeLists.txt:515 (check_include_file)"
+    checks:
+      - "Looking for malloc.h"
+    directories:
+      source: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-efk1dx"
+      binary: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-efk1dx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/cmake"
+    buildResult:
+      variable: "HAVE_MALLOC_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-efk1dx
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_6b293/fast && C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_6b293.dir\\build.make CMakeFiles/cmTC_6b293.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-efk1dx'
+        Building C object CMakeFiles/cmTC_6b293.dir/CheckIncludeFile.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_6b293.dir\\CheckIncludeFile.c.obj -c "C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-efk1dx\\CheckIncludeFile.c"
+        Linking C executable cmTC_6b293.exe
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_6b293.dir\\link.txt --verbose=1
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_6b293.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_6b293.dir/objects.a @CMakeFiles\\cmTC_6b293.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_6b293.dir/objects.a -Wl,--no-whole-archive -o cmTC_6b293.exe -Wl,--out-implib,libcmTC_6b293.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_6b293.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-efk1dx'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "external/AL/CMakeLists.txt:516 (check_include_file)"
+    checks:
+      - "Looking for cpuid.h"
+    directories:
+      source: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-52jli1"
+      binary: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-52jli1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/cmake"
+    buildResult:
+      variable: "HAVE_CPUID_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-52jli1
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_2ed09/fast && C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_2ed09.dir\\build.make CMakeFiles/cmTC_2ed09.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-52jli1'
+        Building C object CMakeFiles/cmTC_2ed09.dir/CheckIncludeFile.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_2ed09.dir\\CheckIncludeFile.c.obj -c "C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-52jli1\\CheckIncludeFile.c"
+        Linking C executable cmTC_2ed09.exe
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_2ed09.dir\\link.txt --verbose=1
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_2ed09.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_2ed09.dir/objects.a @CMakeFiles\\cmTC_2ed09.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_2ed09.dir/objects.a -Wl,--no-whole-archive -o cmTC_2ed09.exe -Wl,--out-implib,libcmTC_2ed09.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_2ed09.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-52jli1'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "external/AL/CMakeLists.txt:517 (check_include_file)"
+    checks:
+      - "Looking for intrin.h"
+    directories:
+      source: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-gmkg6i"
+      binary: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-gmkg6i"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/cmake"
+    buildResult:
+      variable: "HAVE_INTRIN_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-gmkg6i
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_8e4c4/fast && C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_8e4c4.dir\\build.make CMakeFiles/cmTC_8e4c4.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-gmkg6i'
+        Building C object CMakeFiles/cmTC_8e4c4.dir/CheckIncludeFile.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_8e4c4.dir\\CheckIncludeFile.c.obj -c "C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gmkg6i\\CheckIncludeFile.c"
+        Linking C executable cmTC_8e4c4.exe
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_8e4c4.dir\\link.txt --verbose=1
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_8e4c4.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_8e4c4.dir/objects.a @CMakeFiles\\cmTC_8e4c4.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_8e4c4.dir/objects.a -Wl,--no-whole-archive -o cmTC_8e4c4.exe -Wl,--out-implib,libcmTC_8e4c4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_8e4c4.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-gmkg6i'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "external/AL/CMakeLists.txt:518 (check_include_file)"
+    checks:
+      - "Looking for guiddef.h"
+    directories:
+      source: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-cuf1xd"
+      binary: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-cuf1xd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/cmake"
+    buildResult:
+      variable: "HAVE_GUIDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-cuf1xd
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_dbcbf/fast && C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_dbcbf.dir\\build.make CMakeFiles/cmTC_dbcbf.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-cuf1xd'
+        Building C object CMakeFiles/cmTC_dbcbf.dir/CheckIncludeFile.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_dbcbf.dir\\CheckIncludeFile.c.obj -c "C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cuf1xd\\CheckIncludeFile.c"
+        Linking C executable cmTC_dbcbf.exe
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_dbcbf.dir\\link.txt --verbose=1
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_dbcbf.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_dbcbf.dir/objects.a @CMakeFiles\\cmTC_dbcbf.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_dbcbf.dir/objects.a -Wl,--no-whole-archive -o cmTC_dbcbf.exe -Wl,--out-implib,libcmTC_dbcbf.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_dbcbf.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-cuf1xd'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "external/AL/CMakeLists.txt:525 (check_library_exists)"
+    checks:
+      - "Looking for pow in m"
+    directories:
+      source: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-ngpca6"
+      binary: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-ngpca6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/cmake"
+    buildResult:
+      variable: "HAVE_LIBM"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-ngpca6
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_ec811/fast && C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_ec811.dir\\build.make CMakeFiles/cmTC_ec811.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-ngpca6'
+        Building C object CMakeFiles/cmTC_ec811.dir/CheckFunctionExists.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe   -DCHECK_FUNCTION_EXISTS=pow -o CMakeFiles\\cmTC_ec811.dir\\CheckFunctionExists.c.obj -c "C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ngpca6\\CheckFunctionExists.c"
+        <command-line>: warning: conflicting types for built-in function 'pow'; expected 'double(double,  double)' [-Wbuiltin-declaration-mismatch]
+        C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ngpca6\\CheckFunctionExists.c:7:3: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
+            7 |   CHECK_FUNCTION_EXISTS(void);
+              |   ^~~~~~~~~~~~~~~~~~~~~
+        C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ngpca6\\CheckFunctionExists.c:1:1: note: 'pow' is declared in header '<math.h>'
+          +++ |+#include <math.h>
+            1 | #ifdef CHECK_FUNCTION_EXISTS
+        Linking C executable cmTC_ec811.exe
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_ec811.dir\\link.txt --verbose=1
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_ec811.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_ec811.dir/objects.a @CMakeFiles\\cmTC_ec811.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe  -DCHECK_FUNCTION_EXISTS=pow -Wl,--whole-archive CMakeFiles\\cmTC_ec811.dir/objects.a -Wl,--no-whole-archive -o cmTC_ec811.exe -Wl,--out-implib,libcmTC_ec811.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_ec811.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-ngpca6'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "external/AL/CMakeLists.txt:534 (check_library_exists)"
+    checks:
+      - "Looking for clock_gettime in rt"
+    directories:
+      source: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-qz8zzf"
+      binary: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-qz8zzf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/cmake"
+    buildResult:
+      variable: "HAVE_LIBRT"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-qz8zzf
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_39457/fast && C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_39457.dir\\build.make CMakeFiles/cmTC_39457.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-qz8zzf'
+        Building C object CMakeFiles/cmTC_39457.dir/CheckFunctionExists.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe   -DCHECK_FUNCTION_EXISTS=clock_gettime -o CMakeFiles\\cmTC_39457.dir\\CheckFunctionExists.c.obj -c "C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qz8zzf\\CheckFunctionExists.c"
+        Linking C executable cmTC_39457.exe
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_39457.dir\\link.txt --verbose=1
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_39457.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_39457.dir/objects.a @CMakeFiles\\cmTC_39457.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe  -DCHECK_FUNCTION_EXISTS=clock_gettime -Wl,--whole-archive CMakeFiles\\cmTC_39457.dir/objects.a -Wl,--no-whole-archive -o cmTC_39457.exe -Wl,--out-implib,libcmTC_39457.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_39457.dir\\linkLibs.rsp
+        C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -lrt: No such file or directory
+        collect2.exe: error: ld returned 1 exit status
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_39457.dir\\build.make:100: cmTC_39457.exe] Error 1
+        mingw32-make[1]: Leaving directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-qz8zzf'
+        mingw32-make: *** [Makefile:126: cmTC_39457/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "external/AL/CMakeLists.txt:541 (check_include_file)"
+    checks:
+      - "Looking for dlfcn.h"
+    directories:
+      source: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-qjwn3m"
+      binary: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-qjwn3m"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/cmake"
+    buildResult:
+      variable: "HAVE_DLFCN_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-qjwn3m
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_8991e/fast && C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_8991e.dir\\build.make CMakeFiles/cmTC_8991e.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-qjwn3m'
+        Building C object CMakeFiles/cmTC_8991e.dir/CheckIncludeFile.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_8991e.dir\\CheckIncludeFile.c.obj -c "C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qjwn3m\\CheckIncludeFile.c"
+        C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qjwn3m\\CheckIncludeFile.c:1:10: fatal error: dlfcn.h: No such file or directory
+            1 | #include <dlfcn.h>
+              |          ^~~~~~~~~
+        compilation terminated.
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_8991e.dir\\build.make:77: CMakeFiles/cmTC_8991e.dir/CheckIncludeFile.c.obj] Error 1
+        mingw32-make[1]: Leaving directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-qjwn3m'
+        mingw32-make: *** [Makefile:126: cmTC_8991e/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "external/AL/CMakeLists.txt:542 (check_library_exists)"
+    checks:
+      - "Looking for dlopen in dl"
+    directories:
+      source: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-g4g7q9"
+      binary: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-g4g7q9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/cmake"
+    buildResult:
+      variable: "HAVE_LIBDL"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-g4g7q9
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_cf57a/fast && C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_cf57a.dir\\build.make CMakeFiles/cmTC_cf57a.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-g4g7q9'
+        Building C object CMakeFiles/cmTC_cf57a.dir/CheckFunctionExists.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe   -DCHECK_FUNCTION_EXISTS=dlopen -o CMakeFiles\\cmTC_cf57a.dir\\CheckFunctionExists.c.obj -c "C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g4g7q9\\CheckFunctionExists.c"
+        Linking C executable cmTC_cf57a.exe
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_cf57a.dir\\link.txt --verbose=1
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_cf57a.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_cf57a.dir/objects.a @CMakeFiles\\cmTC_cf57a.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe  -DCHECK_FUNCTION_EXISTS=dlopen -Wl,--whole-archive CMakeFiles\\cmTC_cf57a.dir/objects.a -Wl,--no-whole-archive -o cmTC_cf57a.exe -Wl,--out-implib,libcmTC_cf57a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_cf57a.dir\\linkLibs.rsp
+        C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -ldl: No such file or directory
+        collect2.exe: error: ld returned 1 exit status
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_cf57a.dir\\build.make:100: cmTC_cf57a.exe] Error 1
+        mingw32-make[1]: Leaving directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-g4g7q9'
+        mingw32-make: *** [Makefile:126: cmTC_cf57a/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "external/AL/CMakeLists.txt:551 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_GCC_GET_CPUID"
+    directories:
+      source: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-mbohfu"
+      binary: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-mbohfu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/cmake"
+    buildResult:
+      variable: "HAVE_GCC_GET_CPUID"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-mbohfu
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_f4d93/fast && C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_f4d93.dir\\build.make CMakeFiles/cmTC_f4d93.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-mbohfu'
+        Building C object CMakeFiles/cmTC_f4d93.dir/src.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -DHAVE_GCC_GET_CPUID   -o CMakeFiles\\cmTC_f4d93.dir\\src.c.obj -c "C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mbohfu\\src.c"
+        Linking C executable cmTC_f4d93.exe
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_f4d93.dir\\link.txt --verbose=1
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_f4d93.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_f4d93.dir/objects.a @CMakeFiles\\cmTC_f4d93.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_f4d93.dir/objects.a -Wl,--no-whole-archive -o cmTC_f4d93.exe -Wl,--out-implib,libcmTC_f4d93.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_f4d93.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-mbohfu'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "external/AL/CMakeLists.txt:559 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_CPUID_INTRINSIC"
+    directories:
+      source: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-vukjpx"
+      binary: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-vukjpx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/cmake"
+    buildResult:
+      variable: "HAVE_CPUID_INTRINSIC"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-vukjpx
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_5c960/fast && C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_5c960.dir\\build.make CMakeFiles/cmTC_5c960.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-vukjpx'
+        Building C object CMakeFiles/cmTC_5c960.dir/src.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -DHAVE_CPUID_INTRINSIC   -o CMakeFiles\\cmTC_5c960.dir\\src.c.obj -c "C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vukjpx\\src.c"
+        Linking C executable cmTC_5c960.exe
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_5c960.dir\\link.txt --verbose=1
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_5c960.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_5c960.dir/objects.a @CMakeFiles\\cmTC_5c960.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_5c960.dir/objects.a -Wl,--no-whole-archive -o cmTC_5c960.exe -Wl,--out-implib,libcmTC_5c960.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_5c960.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-vukjpx'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "external/AL/CMakeLists.txt:568 (check_symbol_exists)"
+    checks:
+      - "Looking for proc_pidpath"
+    directories:
+      source: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-76s20t"
+      binary: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-76s20t"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/cmake"
+    buildResult:
+      variable: "HAVE_PROC_PIDPATH"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-76s20t
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_7276b/fast && C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_7276b.dir\\build.make CMakeFiles/cmTC_7276b.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-76s20t'
+        Building C object CMakeFiles/cmTC_7276b.dir/CheckSymbolExists.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_7276b.dir\\CheckSymbolExists.c.obj -c "C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-76s20t\\CheckSymbolExists.c"
+        C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-76s20t\\CheckSymbolExists.c:2:10: fatal error: libproc.h: No such file or directory
+            2 | #include <libproc.h>
+              |          ^~~~~~~~~~~
+        compilation terminated.
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_7276b.dir\\build.make:77: CMakeFiles/cmTC_7276b.dir/CheckSymbolExists.c.obj] Error 1
+        mingw32-make[1]: Leaving directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-76s20t'
+        mingw32-make: *** [Makefile:126: cmTC_7276b/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "external/AL/CMakeLists.txt:602 (check_symbol_exists)"
+    checks:
+      - "Looking for getopt"
+    directories:
+      source: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-at67ee"
+      binary: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-at67ee"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/cmake"
+    buildResult:
+      variable: "HAVE_GETOPT"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-at67ee
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_01833/fast && C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_01833.dir\\build.make CMakeFiles/cmTC_01833.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-at67ee'
+        Building C object CMakeFiles/cmTC_01833.dir/CheckSymbolExists.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_01833.dir\\CheckSymbolExists.c.obj -c "C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-at67ee\\CheckSymbolExists.c"
+        Linking C executable cmTC_01833.exe
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_01833.dir\\link.txt --verbose=1
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_01833.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_01833.dir/objects.a @CMakeFiles\\cmTC_01833.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_01833.dir/objects.a -Wl,--no-whole-archive -o cmTC_01833.exe -Wl,--out-implib,libcmTC_01833.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_01833.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-at67ee'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "external/AL/CMakeLists.txt:1036 (check_include_file)"
+    checks:
+      - "Looking for dsound.h"
+    directories:
+      source: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-gxv3vd"
+      binary: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-gxv3vd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/cmake"
+    buildResult:
+      variable: "HAVE_DSOUND_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-gxv3vd
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_70c02/fast && C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_70c02.dir\\build.make CMakeFiles/cmTC_70c02.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-gxv3vd'
+        Building C object CMakeFiles/cmTC_70c02.dir/CheckIncludeFile.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_70c02.dir\\CheckIncludeFile.c.obj -c "C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gxv3vd\\CheckIncludeFile.c"
+        Linking C executable cmTC_70c02.exe
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_70c02.dir\\link.txt --verbose=1
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_70c02.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_70c02.dir/objects.a @CMakeFiles\\cmTC_70c02.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_70c02.dir/objects.a -Wl,--no-whole-archive -o cmTC_70c02.exe -Wl,--out-implib,libcmTC_70c02.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_70c02.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-gxv3vd'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "external/AL/CMakeLists.txt:1058 (check_include_file)"
+    checks:
+      - "Looking for mmdeviceapi.h"
+    directories:
+      source: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-2tx8sh"
+      binary: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-2tx8sh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/cmake"
+    buildResult:
+      variable: "HAVE_MMDEVICEAPI_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-2tx8sh
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_b56c9/fast && C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_b56c9.dir\\build.make CMakeFiles/cmTC_b56c9.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-2tx8sh'
+        Building C object CMakeFiles/cmTC_b56c9.dir/CheckIncludeFile.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_b56c9.dir\\CheckIncludeFile.c.obj -c "C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2tx8sh\\CheckIncludeFile.c"
+        Linking C executable cmTC_b56c9.exe
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_b56c9.dir\\link.txt --verbose=1
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_b56c9.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_b56c9.dir/objects.a @CMakeFiles\\cmTC_b56c9.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_b56c9.dir/objects.a -Wl,--no-whole-archive -o cmTC_b56c9.exe -Wl,--out-implib,libcmTC_b56c9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_b56c9.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-2tx8sh'
         
       exitCode: 0
 ...

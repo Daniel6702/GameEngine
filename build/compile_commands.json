@@ -1,51 +1,87 @@
 [
 {
   "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLEW_STATIC -DGLFW_INCLUDE_NONE @CMakeFiles/MyGameEngine.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -o CMakeFiles\\MyGameEngine.dir\\src\\CoreEngine.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\src\\CoreEngine.cpp\"",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLEW_STATIC -DGLFW_INCLUDE_NONE @CMakeFiles/MyGameEngine.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -w -g -std=gnu++17 -o CMakeFiles\\MyGameEngine.dir\\src\\CoreEngine.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\src\\CoreEngine.cpp\"",
   "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/src/CoreEngine.cpp",
   "output": "CMakeFiles/MyGameEngine.dir/src/CoreEngine.cpp.obj"
 },
 {
   "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLEW_STATIC -DGLFW_INCLUDE_NONE @CMakeFiles/MyGameEngine.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -o CMakeFiles\\MyGameEngine.dir\\src\\background.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\src\\background.cpp\"",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLEW_STATIC -DGLFW_INCLUDE_NONE @CMakeFiles/MyGameEngine.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -w -g -std=gnu++17 -o CMakeFiles\\MyGameEngine.dir\\src\\background.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\src\\background.cpp\"",
   "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/src/background.cpp",
   "output": "CMakeFiles/MyGameEngine.dir/src/background.cpp.obj"
 },
 {
   "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLEW_STATIC -DGLFW_INCLUDE_NONE @CMakeFiles/MyGameEngine.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -o CMakeFiles\\MyGameEngine.dir\\src\\circle.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\src\\circle.cpp\"",
-  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/src/circle.cpp",
-  "output": "CMakeFiles/MyGameEngine.dir/src/circle.cpp.obj"
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLEW_STATIC -DGLFW_INCLUDE_NONE @CMakeFiles/MyGameEngine.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -w -g -std=gnu++17 -o CMakeFiles\\MyGameEngine.dir\\src\\input_handler.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\src\\input_handler.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/src/input_handler.cpp",
+  "output": "CMakeFiles/MyGameEngine.dir/src/input_handler.cpp.obj"
 },
 {
   "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLEW_STATIC -DGLFW_INCLUDE_NONE @CMakeFiles/MyGameEngine.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -o CMakeFiles\\MyGameEngine.dir\\src\\main.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\src\\main.cpp\"",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLEW_STATIC -DGLFW_INCLUDE_NONE @CMakeFiles/MyGameEngine.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -w -g -std=gnu++17 -o CMakeFiles\\MyGameEngine.dir\\src\\main.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\src\\main.cpp\"",
   "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/src/main.cpp",
   "output": "CMakeFiles/MyGameEngine.dir/src/main.cpp.obj"
 },
 {
   "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLEW_STATIC -DGLFW_INCLUDE_NONE @CMakeFiles/MyGameEngine.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -o CMakeFiles\\MyGameEngine.dir\\src\\render_queue.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\src\\render_queue.cpp\"",
-  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/src/render_queue.cpp",
-  "output": "CMakeFiles/MyGameEngine.dir/src/render_queue.cpp.obj"
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLEW_STATIC -DGLFW_INCLUDE_NONE @CMakeFiles/MyGameEngine.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -w -g -std=gnu++17 -o CMakeFiles\\MyGameEngine.dir\\src\\rendering\\render_queue.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\src\\rendering\\render_queue.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/src/rendering/render_queue.cpp",
+  "output": "CMakeFiles/MyGameEngine.dir/src/rendering/render_queue.cpp.obj"
 },
 {
   "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLEW_STATIC -DGLFW_INCLUDE_NONE @CMakeFiles/MyGameEngine.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -o CMakeFiles\\MyGameEngine.dir\\src\\renderer.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\src\\renderer.cpp\"",
-  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/src/renderer.cpp",
-  "output": "CMakeFiles/MyGameEngine.dir/src/renderer.cpp.obj"
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLEW_STATIC -DGLFW_INCLUDE_NONE @CMakeFiles/MyGameEngine.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -w -g -std=gnu++17 -o CMakeFiles\\MyGameEngine.dir\\src\\rendering\\renderer.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\src\\rendering\\renderer.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/src/rendering/renderer.cpp",
+  "output": "CMakeFiles/MyGameEngine.dir/src/rendering/renderer.cpp.obj"
 },
 {
   "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLEW_STATIC -DGLFW_INCLUDE_NONE @CMakeFiles/MyGameEngine.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -o CMakeFiles\\MyGameEngine.dir\\src\\shader.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\src\\shader.cpp\"",
-  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/src/shader.cpp",
-  "output": "CMakeFiles/MyGameEngine.dir/src/shader.cpp.obj"
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLEW_STATIC -DGLFW_INCLUDE_NONE @CMakeFiles/MyGameEngine.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -w -g -std=gnu++17 -o CMakeFiles\\MyGameEngine.dir\\src\\rendering\\shader.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\src\\rendering\\shader.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/src/rendering/shader.cpp",
+  "output": "CMakeFiles/MyGameEngine.dir/src/rendering/shader.cpp.obj"
 },
 {
   "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLEW_STATIC -DGLFW_INCLUDE_NONE @CMakeFiles/MyGameEngine.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -o CMakeFiles\\MyGameEngine.dir\\src\\shape.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\src\\shape.cpp\"",
-  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/src/shape.cpp",
-  "output": "CMakeFiles/MyGameEngine.dir/src/shape.cpp.obj"
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLEW_STATIC -DGLFW_INCLUDE_NONE @CMakeFiles/MyGameEngine.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -w -g -std=gnu++17 -o CMakeFiles\\MyGameEngine.dir\\src\\shapes\\circle.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\src\\shapes\\circle.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/src/shapes/circle.cpp",
+  "output": "CMakeFiles/MyGameEngine.dir/src/shapes/circle.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLEW_STATIC -DGLFW_INCLUDE_NONE @CMakeFiles/MyGameEngine.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -w -g -std=gnu++17 -o CMakeFiles\\MyGameEngine.dir\\src\\shapes\\ellipse.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\src\\shapes\\ellipse.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/src/shapes/ellipse.cpp",
+  "output": "CMakeFiles/MyGameEngine.dir/src/shapes/ellipse.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLEW_STATIC -DGLFW_INCLUDE_NONE @CMakeFiles/MyGameEngine.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -w -g -std=gnu++17 -o CMakeFiles\\MyGameEngine.dir\\src\\shapes\\line.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\src\\shapes\\line.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/src/shapes/line.cpp",
+  "output": "CMakeFiles/MyGameEngine.dir/src/shapes/line.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLEW_STATIC -DGLFW_INCLUDE_NONE @CMakeFiles/MyGameEngine.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -w -g -std=gnu++17 -o CMakeFiles\\MyGameEngine.dir\\src\\shapes\\rectangle.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\src\\shapes\\rectangle.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/src/shapes/rectangle.cpp",
+  "output": "CMakeFiles/MyGameEngine.dir/src/shapes/rectangle.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLEW_STATIC -DGLFW_INCLUDE_NONE @CMakeFiles/MyGameEngine.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -w -g -std=gnu++17 -o CMakeFiles\\MyGameEngine.dir\\src\\shapes\\shape.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\src\\shapes\\shape.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/src/shapes/shape.cpp",
+  "output": "CMakeFiles/MyGameEngine.dir/src/shapes/shape.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLEW_STATIC -DGLFW_INCLUDE_NONE @CMakeFiles/MyGameEngine.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -w -g -std=gnu++17 -o CMakeFiles\\MyGameEngine.dir\\src\\shapes\\star.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\src\\shapes\\star.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/src/shapes/star.cpp",
+  "output": "CMakeFiles/MyGameEngine.dir/src/shapes/star.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLEW_STATIC -DGLFW_INCLUDE_NONE @CMakeFiles/MyGameEngine.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -w -g -std=gnu++17 -o CMakeFiles\\MyGameEngine.dir\\src\\shapes\\triangle.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\src\\shapes\\triangle.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/src/shapes/triangle.cpp",
+  "output": "CMakeFiles/MyGameEngine.dir/src/shapes/triangle.cpp.obj"
 },
 {
   "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/GLFW/src",
@@ -196,5 +232,635 @@
   "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DGLEW_NO_GLU @CMakeFiles/visualinfo.dir/includes_C.rsp -g -o CMakeFiles\\visualinfo.dir\\__\\__\\src\\visualinfo.c.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\GLEW\\src\\visualinfo.c\"",
   "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/GLEW/src/visualinfo.c",
   "output": "external/GLEW/build/cmake/CMakeFiles/visualinfo.dir/__/__/src/visualinfo.c.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/alcommon.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\alcommon.dir\\common\\alcomplex.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\common\\alcomplex.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/common/alcomplex.cpp",
+  "output": "external/AL/CMakeFiles/alcommon.dir/common/alcomplex.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/alcommon.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\alcommon.dir\\common\\alsem.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\common\\alsem.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/common/alsem.cpp",
+  "output": "external/AL/CMakeFiles/alcommon.dir/common/alsem.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/alcommon.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\alcommon.dir\\common\\alstring.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\common\\alstring.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/common/alstring.cpp",
+  "output": "external/AL/CMakeFiles/alcommon.dir/common/alstring.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/alcommon.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\alcommon.dir\\common\\althrd_setname.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\common\\althrd_setname.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/common/althrd_setname.cpp",
+  "output": "external/AL/CMakeFiles/alcommon.dir/common/althrd_setname.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/alcommon.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\alcommon.dir\\common\\dynload.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\common\\dynload.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/common/dynload.cpp",
+  "output": "external/AL/CMakeFiles/alcommon.dir/common/dynload.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/alcommon.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\alcommon.dir\\common\\pffft.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\common\\pffft.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/common/pffft.cpp",
+  "output": "external/AL/CMakeFiles/alcommon.dir/common/pffft.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/alcommon.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\alcommon.dir\\common\\polyphase_resampler.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\common\\polyphase_resampler.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/common/polyphase_resampler.cpp",
+  "output": "external/AL/CMakeFiles/alcommon.dir/common/polyphase_resampler.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/alcommon.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\alcommon.dir\\common\\ringbuffer.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\common\\ringbuffer.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/common/ringbuffer.cpp",
+  "output": "external/AL/CMakeFiles/alcommon.dir/common/ringbuffer.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DNOMINMAX -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/alcommon.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\alcommon.dir\\common\\strutils.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\common\\strutils.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/common/strutils.cpp",
+  "output": "external/AL/CMakeFiles/alcommon.dir/common/strutils.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\al\\auxeffectslot.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\al\\auxeffectslot.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/al/auxeffectslot.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/al/auxeffectslot.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\al\\buffer.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\al\\buffer.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/al/buffer.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/al/buffer.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\al\\debug.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\al\\debug.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/al/debug.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/al/debug.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\al\\effect.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\al\\effect.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/al/effect.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/al/effect.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\al\\effects\\autowah.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\al\\effects\\autowah.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/al/effects/autowah.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/al/effects/autowah.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\al\\effects\\chorus.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\al\\effects\\chorus.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/al/effects/chorus.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/al/effects/chorus.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\al\\effects\\compressor.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\al\\effects\\compressor.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/al/effects/compressor.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/al/effects/compressor.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\al\\effects\\convolution.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\al\\effects\\convolution.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/al/effects/convolution.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/al/effects/convolution.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\al\\effects\\dedicated.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\al\\effects\\dedicated.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/al/effects/dedicated.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/al/effects/dedicated.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\al\\effects\\distortion.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\al\\effects\\distortion.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/al/effects/distortion.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/al/effects/distortion.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\al\\effects\\echo.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\al\\effects\\echo.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/al/effects/echo.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/al/effects/echo.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\al\\effects\\effects.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\al\\effects\\effects.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/al/effects/effects.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/al/effects/effects.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\al\\effects\\equalizer.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\al\\effects\\equalizer.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/al/effects/equalizer.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/al/effects/equalizer.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\al\\effects\\fshifter.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\al\\effects\\fshifter.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/al/effects/fshifter.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/al/effects/fshifter.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\al\\effects\\modulator.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\al\\effects\\modulator.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/al/effects/modulator.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/al/effects/modulator.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\al\\effects\\null.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\al\\effects\\null.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/al/effects/null.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/al/effects/null.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\al\\effects\\pshifter.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\al\\effects\\pshifter.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/al/effects/pshifter.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/al/effects/pshifter.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\al\\effects\\reverb.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\al\\effects\\reverb.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/al/effects/reverb.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/al/effects/reverb.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\al\\effects\\vmorpher.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\al\\effects\\vmorpher.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/al/effects/vmorpher.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/al/effects/vmorpher.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\al\\error.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\al\\error.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/al/error.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/al/error.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\al\\event.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\al\\event.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/al/event.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/al/event.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\al\\extension.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\al\\extension.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/al/extension.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/al/extension.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\al\\filter.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\al\\filter.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/al/filter.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/al/filter.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\al\\listener.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\al\\listener.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/al/listener.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/al/listener.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\al\\source.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\al\\source.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/al/source.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/al/source.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\al\\state.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\al\\state.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/al/state.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/al/state.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\al\\eax\\api.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\al\\eax\\api.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/al/eax/api.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/al/eax/api.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\al\\eax\\call.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\al\\eax\\call.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/al/eax/call.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/al/eax/call.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\al\\eax\\exception.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\al\\eax\\exception.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/al/eax/exception.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/al/eax/exception.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\al\\eax\\fx_slot_index.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\al\\eax\\fx_slot_index.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/al/eax/fx_slot_index.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/al/eax/fx_slot_index.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\al\\eax\\fx_slots.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\al\\eax\\fx_slots.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/al/eax/fx_slots.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/al/eax/fx_slots.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\al\\eax\\utils.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\al\\eax\\utils.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/al/eax/utils.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/al/eax/utils.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\alc\\alc.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\alc\\alc.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/alc/alc.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/alc/alc.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\alc\\alu.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\alc\\alu.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/alc/alu.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/alc/alu.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\alc\\alconfig.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\alc\\alconfig.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/alc/alconfig.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/alc/alconfig.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\alc\\context.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\alc\\context.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/alc/context.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/alc/context.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\alc\\device.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\alc\\device.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/alc/device.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/alc/device.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\alc\\effects\\autowah.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\alc\\effects\\autowah.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/alc/effects/autowah.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/alc/effects/autowah.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\alc\\effects\\chorus.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\alc\\effects\\chorus.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/alc/effects/chorus.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/alc/effects/chorus.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\alc\\effects\\compressor.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\alc\\effects\\compressor.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/alc/effects/compressor.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/alc/effects/compressor.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\alc\\effects\\convolution.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\alc\\effects\\convolution.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/alc/effects/convolution.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/alc/effects/convolution.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\alc\\effects\\dedicated.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\alc\\effects\\dedicated.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/alc/effects/dedicated.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/alc/effects/dedicated.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\alc\\effects\\distortion.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\alc\\effects\\distortion.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/alc/effects/distortion.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/alc/effects/distortion.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\alc\\effects\\echo.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\alc\\effects\\echo.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/alc/effects/echo.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/alc/effects/echo.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\alc\\effects\\equalizer.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\alc\\effects\\equalizer.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/alc/effects/equalizer.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/alc/effects/equalizer.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\alc\\effects\\fshifter.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\alc\\effects\\fshifter.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/alc/effects/fshifter.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/alc/effects/fshifter.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\alc\\effects\\modulator.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\alc\\effects\\modulator.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/alc/effects/modulator.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/alc/effects/modulator.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\alc\\effects\\null.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\alc\\effects\\null.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/alc/effects/null.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/alc/effects/null.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\alc\\effects\\pshifter.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\alc\\effects\\pshifter.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/alc/effects/pshifter.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/alc/effects/pshifter.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\alc\\effects\\reverb.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\alc\\effects\\reverb.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/alc/effects/reverb.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/alc/effects/reverb.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\alc\\effects\\vmorpher.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\alc\\effects\\vmorpher.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/alc/effects/vmorpher.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/alc/effects/vmorpher.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\alc\\events.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\alc\\events.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/alc/events.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/alc/events.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\alc\\panning.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\alc\\panning.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/alc/panning.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/alc/panning.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\alc\\backends\\base.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\alc\\backends\\base.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/alc/backends/base.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/alc/backends/base.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\alc\\backends\\loopback.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\alc\\backends\\loopback.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/alc/backends/loopback.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/alc/backends/loopback.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\alc\\backends\\null.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\alc\\backends\\null.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/alc/backends/null.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/alc/backends/null.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\alc\\backends\\winmm.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\alc\\backends\\winmm.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/alc/backends/winmm.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/alc/backends/winmm.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\alc\\backends\\dsound.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\alc\\backends\\dsound.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/alc/backends/dsound.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/alc/backends/dsound.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\alc\\backends\\wasapi.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\alc\\backends\\wasapi.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/alc/backends/wasapi.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/alc/backends/wasapi.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\alc\\backends\\wave.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\alc\\backends\\wave.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/alc/backends/wave.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/alc/backends/wave.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\core\\ambdec.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\core\\ambdec.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/core/ambdec.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/core/ambdec.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\core\\ambidefs.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\core\\ambidefs.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/core/ambidefs.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/core/ambidefs.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\core\\bformatdec.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\core\\bformatdec.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/core/bformatdec.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/core/bformatdec.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\core\\bs2b.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\core\\bs2b.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/core/bs2b.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/core/bs2b.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\core\\bsinc_tables.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\core\\bsinc_tables.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/core/bsinc_tables.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/core/bsinc_tables.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\core\\buffer_storage.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\core\\buffer_storage.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/core/buffer_storage.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/core/buffer_storage.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\core\\context.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\core\\context.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/core/context.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/core/context.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\core\\converter.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\core\\converter.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/core/converter.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/core/converter.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\core\\cpu_caps.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\core\\cpu_caps.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/core/cpu_caps.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/core/cpu_caps.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\core\\cubic_tables.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\core\\cubic_tables.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/core/cubic_tables.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/core/cubic_tables.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\core\\devformat.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\core\\devformat.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/core/devformat.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/core/devformat.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\core\\device.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\core\\device.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/core/device.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/core/device.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\core\\effectslot.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\core\\effectslot.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/core/effectslot.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/core/effectslot.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\core\\except.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\core\\except.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/core/except.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/core/except.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\core\\filters\\biquad.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\core\\filters\\biquad.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/core/filters/biquad.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/core/filters/biquad.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\core\\filters\\nfc.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\core\\filters\\nfc.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/core/filters/nfc.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/core/filters/nfc.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\core\\filters\\splitter.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\core\\filters\\splitter.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/core/filters/splitter.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/core/filters/splitter.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\core\\fmt_traits.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\core\\fmt_traits.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/core/fmt_traits.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/core/fmt_traits.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\core\\fpu_ctrl.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\core\\fpu_ctrl.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/core/fpu_ctrl.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/core/fpu_ctrl.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\core\\helpers.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\core\\helpers.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/core/helpers.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/core/helpers.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\core\\hrtf.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\core\\hrtf.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/core/hrtf.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/core/hrtf.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\core\\logging.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\core\\logging.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/core/logging.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/core/logging.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\core\\mastering.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\core\\mastering.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/core/mastering.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/core/mastering.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\core\\mixer.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\core\\mixer.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/core/mixer.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/core/mixer.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\core\\uhjfilter.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\core\\uhjfilter.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/core/uhjfilter.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/core/uhjfilter.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\core\\uiddefs.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\core\\uiddefs.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/core/uiddefs.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/core/uiddefs.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\core\\voice.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\core\\voice.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/core/voice.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/core/voice.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\core\\mixer\\mixer_c.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\core\\mixer\\mixer_c.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/core/mixer/mixer_c.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/core/mixer/mixer_c.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\core\\mixer\\mixer_sse.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\core\\mixer\\mixer_sse.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/core/mixer/mixer_sse.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/core/mixer/mixer_sse.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\core\\mixer\\mixer_sse2.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\core\\mixer\\mixer_sse2.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/core/mixer/mixer_sse2.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/core/mixer/mixer_sse2.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\core\\mixer\\mixer_sse3.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\core\\mixer\\mixer_sse3.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/core/mixer/mixer_sse3.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/core/mixer/mixer_sse3.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DALC_API=__declspec(dllexport) -DAL_ALEXT_PROTOTYPES -DAL_API=__declspec(dllexport) -DAL_BUILD_LIBRARY -DNOMINMAX -DOpenAL_EXPORTS -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/OpenAL.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -g -std=gnu++17 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -fno-math-errno -o CMakeFiles\\OpenAL.dir\\core\\mixer\\mixer_sse41.cpp.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\core\\mixer\\mixer_sse41.cpp\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/core/mixer/mixer_sse41.cpp",
+  "output": "external/AL/CMakeFiles/OpenAL.dir/core/mixer/mixer_sse41.cpp.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/openal-info.dir/includes_C.rsp -g -std=gnu11 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -fno-math-errno -o CMakeFiles\\openal-info.dir\\utils\\openal-info.c.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\utils\\openal-info.c\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/utils/openal-info.c",
+  "output": "external/AL/CMakeFiles/openal-info.dir/utils/openal-info.c.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DNOMINMAX -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/al-excommon.dir/includes_C.rsp -g -std=gnu11 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -fno-math-errno -o CMakeFiles\\al-excommon.dir\\examples\\common\\alhelpers.c.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\examples\\common\\alhelpers.c\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/examples/common/alhelpers.c",
+  "output": "external/AL/CMakeFiles/al-excommon.dir/examples/common/alhelpers.c.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DNOMINMAX -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/altonegen.dir/includes_C.rsp -g -std=gnu11 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -fno-math-errno -o CMakeFiles\\altonegen.dir\\examples\\altonegen.c.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\examples\\altonegen.c\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/examples/altonegen.c",
+  "output": "external/AL/CMakeFiles/altonegen.dir/examples/altonegen.c.obj"
+},
+{
+  "directory": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/build/external/AL",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DNOMINMAX -DRESTRICT=__restrict -D_WIN32 -D__USE_MINGW_ANSI_STDIO @CMakeFiles/alrecord.dir/includes_C.rsp -g -std=gnu11 -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -fno-math-errno -o CMakeFiles\\alrecord.dir\\examples\\alrecord.c.obj -c \"C:\\Users\\peder\\OneDrive - Aarhus universitet\\Projects\\GameEngine\\GameEngine\\external\\AL\\examples\\alrecord.c\"",
+  "file": "C:/Users/peder/OneDrive - Aarhus universitet/Projects/GameEngine/GameEngine/external/AL/examples/alrecord.c",
+  "output": "external/AL/CMakeFiles/alrecord.dir/examples/alrecord.c.obj"
 }
 ]

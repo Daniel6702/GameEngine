@@ -2,8 +2,8 @@
 #include <iostream>
 #include <GL/glew.h>
 
-CoreEngine::CoreEngine(int width, int height, const std::string& title)
-    : m_game(nullptr),  m_width(width), m_height(height), m_title(title), m_window(nullptr), m_isRunning(false) {
+CoreEngine::CoreEngine(const std::string& title)
+    : m_game(nullptr), m_title(title), m_window(nullptr), m_isRunning(false) {
 }
 
 CoreEngine::~CoreEngine() {
@@ -15,7 +15,9 @@ CoreEngine::~CoreEngine() {
     glfwTerminate();
 }
 
-bool CoreEngine::init() {
+bool CoreEngine::init(IGame* game) {
+    m_game = game;
+
     // Initialize GLFW
     if (!glfwInit()) {
         std::cerr << "Failed to initialize GLFW." << std::endl;
@@ -23,7 +25,7 @@ bool CoreEngine::init() {
     }
 
     // Create a GLFW window
-    m_window = glfwCreateWindow(m_width, m_height, m_title.c_str(), nullptr, nullptr);
+    m_window = glfwCreateWindow(Constants::screenWidth, Constants::screenHeight, m_title.c_str(), nullptr, nullptr);
     if (!m_window) {
         std::cerr << "Failed to create GLFW window. " << std::endl;
         glfwTerminate();
@@ -44,7 +46,11 @@ bool CoreEngine::init() {
     }
 
     // Set up the renderer
-    renderer = new Renderer(m_width, m_height);
+    renderer = new Renderer();    
+
+    // Set up the input handler
+    glfwSetWindowUserPointer(m_window, this);
+    m_inputHandler.init(m_window, m_game);
 
     return true;
 }
@@ -74,10 +80,6 @@ void CoreEngine::run() {
         glfwSwapBuffers(m_window);
         glfwPollEvents();
     }
-}
-
-void CoreEngine::setGame(IGame* game) {
-    m_game = game;
 }
 
 float CoreEngine::calculateDeltaTime() {

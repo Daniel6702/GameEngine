@@ -3,6 +3,7 @@
 Background::Background(glm::vec3 color) {
     item.color = color;
     item.type = 1;
+    item.layer = -1;
 }
 
 void Background::setBackGroundColor(glm::vec3 color) {

@@ -1,7 +1,7 @@
 #include "IGame.h"
-#include "circle.h"
 #include "background.h"
 #include <GLFW/glfw3.h>
+#include "shapes_lib.h"
 #include <iostream>
 using namespace std;
 
@@ -33,6 +33,10 @@ public:
         circle->draw();
     }
 
+    glm::vec2 getPosition() const {
+        return circle->getPosition();
+    }
+
 private:
     Circle* circle;
     glm::vec2 velocity;
@@ -40,6 +44,7 @@ private:
 
 class MyGame : public IGame {
 public:
+
     MyGame() {}
 
     ~MyGame() {
@@ -50,30 +55,53 @@ public:
 
     void init() override {
         background = new Background(glm::vec3(40, 40, 40));
-        for (int i = 0; i < 10000; ++i) {
+        rectangle = new Rectangle(100, 200, 200, 100, glm::vec3(255, 0, 255));
+        ellipse = new Ellipse(500, 300, 100, 50, glm::vec3(0, 255, 255));
+        triangle = new Triangle(glm::vec2(800, 100), glm::vec2(900, 200), glm::vec2(700, 200), glm::vec3(255, 255, 0));
+        line = new Line(glm::vec2(100, 400), glm::vec2(200, 500), 10, glm::vec3(255, 255, 255));
+        star = new Star(1000, 400, 100, 50, glm::vec3(255, 0, 0), 5);
+        for (int i = 0; i < 1; ++i) {
             int x = rand() % SCREEN_WIDTH;
             int y = rand() % SCREEN_HEIGHT;
             glm::vec3 color(rand() % 256, rand() % 256, rand() % 256);
             glm::vec2 velocity(rand() % 200 - 100, rand() % 200 - 100); // Random velocity
             balls.push_back(new Ball(x, y, 50, color, velocity));
         }
+        
     }
 
     void update(float deltaTime) override {
+        
         for (auto* ball : balls) {
-            ball->update(deltaTime*0.025f);
+            //cout << ball->getPosition().x << " " << ball->getPosition().y << endl;
+            ball->update(deltaTime*0.01f);
         }
     }
 
     void render() override {
         background->draw();
+        rectangle->draw();
+        ellipse->draw();
+        triangle->draw();
+        line->draw();
+        star->draw();
         for (auto* ball : balls) {
             ball->draw();
         }
     }
 
+    void keyPressed(string key, int mods) {
+        cout << "Key Pressed: " << key << " " << mods << endl;
+    };
+
 private:
     std::vector<Ball*> balls;
+    //Circle* circle;
+    Rectangle* rectangle;
+    Ellipse* ellipse;
+    Triangle* triangle;
+    Line* line;
+    Star* star;
     Background* background;
 };
 

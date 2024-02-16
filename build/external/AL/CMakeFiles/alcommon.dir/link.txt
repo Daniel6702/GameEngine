@@ -1,0 +1,2 @@
+C:\msys64\ucrt64\bin\ar.exe qc libalcommon.a CMakeFiles/alcommon.dir/common/alcomplex.cpp.obj CMakeFiles/alcommon.dir/common/alsem.cpp.obj CMakeFiles/alcommon.dir/common/alstring.cpp.obj CMakeFiles/alcommon.dir/common/althrd_setname.cpp.obj CMakeFiles/alcommon.dir/common/dynload.cpp.obj CMakeFiles/alcommon.dir/common/pffft.cpp.obj CMakeFiles/alcommon.dir/common/polyphase_resampler.cpp.obj CMakeFiles/alcommon.dir/common/ringbuffer.cpp.obj CMakeFiles/alcommon.dir/common/strutils.cpp.obj
+C:\msys64\ucrt64\bin\ranlib.exe libalcommon.a

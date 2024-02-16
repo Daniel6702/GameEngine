@@ -1,6 +1,6 @@
 CMakeFiles/MyGameEngine.dir/src/shape.cpp.obj: \
  C:\Users\peder\OneDrive\ -\ Aarhus\ universitet\Projects\GameEngine\GameEngine\src\shape.cpp \
- C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/include/Shape.h \
+ C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/include/shapes/Shape.h \
  C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/external/GLEW/include/GL/glew.h \
  C:/msys64/ucrt64/include/inttypes.h C:/msys64/ucrt64/include/crtdefs.h \
  C:/msys64/ucrt64/include/corecrt.h C:/msys64/ucrt64/include/_mingw.h \
@@ -253,7 +253,7 @@ CMakeFiles/MyGameEngine.dir/src/shape.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/uses_allocator.h \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/uses_allocator_args.h \
  C:/msys64/ucrt64/include/c++/13.1.0/tuple \
- C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/include/render_queue.h \
+ C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/include/RENDER~1/render_queue.h \
  C:/msys64/ucrt64/include/c++/13.1.0/map \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/stl_tree.h \
  C:/msys64/ucrt64/include/c++/13.1.0/ext/aligned_buffer.h \
@@ -261,9 +261,9 @@ CMakeFiles/MyGameEngine.dir/src/shape.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/stl_map.h \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/stl_multimap.h \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/erase_if.h \
- C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/include/render_item.h \
- C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/include/renderer.h \
- C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/include/Shader.h \
+ C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/include/RENDER~1/render_item.h \
+ C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/include/RENDER~1/renderer.h \
+ C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/include/RENDER~1/Shader.h \
  C:/msys64/ucrt64/include/c++/13.1.0/string \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/stringfwd.h \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/char_traits.h \
@@ -293,6 +293,8 @@ CMakeFiles/MyGameEngine.dir/src/shape.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.1.0/cerrno \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/charconv.h \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/basic_string.tcc \
+ C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/include/constants.h \
+ C:/Users/peder/ONEDRI~1/Projects/GAMEEN~1/GAMEEN~1/include/RENDER~1/render_item.h \
  C:/msys64/ucrt64/include/c++/13.1.0/iostream \
  C:/msys64/ucrt64/include/c++/13.1.0/ostream \
  C:/msys64/ucrt64/include/c++/13.1.0/ios \
