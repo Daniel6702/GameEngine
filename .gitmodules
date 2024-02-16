@@ -7,3 +7,6 @@
 [submodule "external/GLEW"]
 	path = external/GLEW
 	url = https://github.com/nigels-com/glew.git
+[submodule "build/MyGameEngine/external/AL"]
+	path = build/MyGameEngine/external/AL
+	url = https://github.com/kcat/openal-soft.git
